@@ -1,0 +1,23 @@
+.main{
+  /* background-color: gray; */
+}
+.heroText{
+  text-align: center;
+  font-size: large;
+}
+
+.auto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.auto2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.logo{
+    width: 15%;
+}
