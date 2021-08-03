@@ -4,6 +4,7 @@
 .heroText{
   text-align: center;
   font-size: large;
+  font-weight: bold;
 }
 
 .auto{
@@ -16,7 +17,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 50%;
 }
 .logo{
     width: 15%;
