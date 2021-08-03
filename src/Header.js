@@ -3,7 +3,7 @@ import './Header.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import autoOne from "./images/auto-1.png";
-// import autoTwo from "./images/auto-4.png";
+import autoTwo from "./images/auto-4.png";
 
 
 export default function SimpleContainer() {
