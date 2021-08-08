@@ -1,15 +1,25 @@
 import React from 'react';
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import NavBar from "./NavBar";
-import Services from "./Services";
-import Wilkommen from "./Wilkommen";
 import Footer from "./Footer";
 import CopyWrite from "./CopyWrite";
+import Home from "./Home";
+import Uber from "./Uber";
 
 
-function App() {
-  return <div><NavBar /><Services />
-  <Wilkommen />
-  <Footer /><CopyWrite /></div>;
+
+const App = () => {
+  return <BrowserRouter>
+    <div>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/uber" component={Uber} />
+      </Switch>
+      <Footer />
+      <CopyWrite />
+  </div>
+  </BrowserRouter>;
 
 }
 
