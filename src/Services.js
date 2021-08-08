@@ -6,12 +6,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
-import inspektion from "./images/1-inspektion.png";
-import meisterbetrieb from "./images/2-meisterbetrieb.png";
-import huAu from "./images/4-huAu.png";
-import diagnose from "./images/5-diagnose.png";
-import reifen from "./images/6-reifen.png";
-import aircondition from "./images/3-aircondition.png";
+import inspektion from "./images/inspektion.png";
+import meisterbetrieb from "./images/meisterbetrieb.png";
+import huAu from "./images/huAu.png";
+import diagnose from "./images/diagnose.png";
+import reifen from "./images/reifen.png";
+import aircondition from "./images/aircondition.png";
+
 
 
 const useStyles = makeStyles((theme) => ({
