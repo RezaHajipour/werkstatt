@@ -14,6 +14,8 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { NavLink as RouterLink } from 'react-router-dom';
 import {Link} from '@material-ui/core';
+import { ReactComponent as Logo } from './images/logo-a2.svg';
+
 
 
 const HideOnScroll = (props) => {
@@ -54,12 +56,15 @@ const NavBar = (props) => {
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar style={{ background: '#00bad4' }} >
+        <AppBar style={{ background: '#00bad4' }} className={classes.menu} >
           <Toolbar className={classes.menu} >
-            <Link component={RouterLink} to="/" >
-              <img src={logoTwo} className={classes.logo} />
+
+            <Link component={RouterLink} to="/" className={classes.middle}>
+                <Logo className={classes.logo} />
             </Link>
-            <div className={classes.appBar}>
+
+            <div className={classes.appBar}>              
+          
               <Button color="inherit" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>Leistungen</Button>
                 <Menu
                   id="simple-menu"
@@ -86,7 +91,6 @@ const NavBar = (props) => {
                </Menu>
               <Button color="inherit">Über uns</Button>
               <Button color="inherit"> Kontakt</Button>
-              <Button color="inherit">Anfahrt</Button>
               </div>
           </Toolbar>
         </AppBar>
@@ -107,20 +111,37 @@ export default NavBar;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: "20%",
+    color: "black",
+    maxWidth: "100%",
+   
   },
   menu: {
-    marginTop: "0.5rem",
+    marginTop: "0 rem",
     marginBottom: "0.5rem",
   },
+
+
+  middle: {
+    display: 'flex',
+    justifyContent: 'center',
+    width: '20%',
+  },
+  // [theme.breakpoints.down('xs')]: {
+  //   middle: {
+  //     width: '100%',
+  //   },
+  // },
   logo: {
-    height: '40%',
-    width: '40%',
-    },
+    paddingTop: "0.5rem",
+    paddingBottom: "0.5rem",
+    height: '80%',
+    width: '90%',
+  },
+
     appBar: {
       display: "flex",
       flexDirection: "row",
-      flexGrow: 6,
+      flexGrow: 10,
       justifyContent: "space-around",
       justifyItems: "right",
       alignItems:"center",
