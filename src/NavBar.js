@@ -15,25 +15,6 @@ import { NavLink as RouterLink } from "react-router-dom";
 import { Link } from "@material-ui/core";
 import { ReactComponent as Logo } from "./images/logo-a2.svg";
 
-const HideOnScroll = (props) => {
-    const { children, window } = props;
-
-    const trigger = useScrollTrigger({
-        target: window ? window() : undefined,
-    });
-
-    return (
-        <Slide appear={false} direction="down" in={!trigger}>
-            {children}
-        </Slide>
-    );
-};
-
-HideOnScroll.propTypes = {
-    children: PropTypes.element.isRequired,
-    window: PropTypes.func,
-};
-
 const NavBar = (props) => {
     const classes = useStyles();
 
@@ -84,62 +65,140 @@ const NavBar = (props) => {
                                 <MenuItem
                                     onClick={handleClose}
                                     component={RouterLink}
-                                    to="/uber"
+                                    to="/auspuff"
                                 >
-                                    Ausspuff
+                                    Auspuff
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/autoklima"
+                                >
                                     Autoklima
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/batterie"
+                                >
                                     Batterie
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/bremse"
+                                >
                                     Bremse
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/diagnose"
+                                >
                                     Diagnose
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/getriebe"
+                                >
                                     Getriebe
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/hu"
+                                >
                                     HU / AU
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/inspektion"
+                                >
                                     Inspektion
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/karosserie"
+                                >
                                     Karosserie
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
-                                    Lenkrader
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/lenkrad"
+                                >
+                                    Lenkrad
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>Motor</MenuItem>
-                                <MenuItem onClick={handleClose}>Öl</MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/motor"
+                                >
+                                    Motor
+                                </MenuItem>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/ol"
+                                >
+                                    Öl
+                                </MenuItem>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/reifen"
+                                >
                                     Reifen / Felgen
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/stossdampfer"
+                                >
                                     Stossdampfer
                                 </MenuItem>
-                                <MenuItem onClick={handleClose}>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/zundung"
+                                >
                                     Zundung
                                 </MenuItem>
                             </Menu>
-                            <Button
+                            <Link
+                                component={RouterLink}
+                                to="/uber"
                                 color="inherit"
                                 className={classes.navTitle}
                             >
                                 Über uns
-                            </Button>
-                            <Button
+                            </Link>
+
+                            <Link
+                                component={RouterLink}
+                                to="/kontakt"
                                 color="inherit"
                                 className={classes.navTitle}
                             >
-                                {" "}
                                 Kontakt
-                            </Button>
+                            </Link>
                         </div>
                     </Toolbar>
                 </AppBar>
@@ -154,6 +213,26 @@ const NavBar = (props) => {
 export default NavBar;
 
 //----------------Material-ui----------------------
+
+const HideOnScroll = (props) => {
+    const { children, window } = props;
+
+    const trigger = useScrollTrigger({
+        target: window ? window() : undefined,
+    });
+
+    return (
+        <Slide appear={false} direction="down" in={!trigger}>
+            {children}
+        </Slide>
+    );
+};
+
+HideOnScroll.propTypes = {
+    children: PropTypes.element.isRequired,
+    window: PropTypes.func,
+};
+//==============================
 
 const useStyles = makeStyles((theme) => ({
     root: {
