@@ -73,14 +73,6 @@ const NavBar = (props) => {
                                 <MenuItem
                                     onClick={handleClose}
                                     component={RouterLink}
-                                    to="/autoklima"
-                                >
-                                    Autoklima
-                                </MenuItem>
-
-                                <MenuItem
-                                    onClick={handleClose}
-                                    component={RouterLink}
                                     to="/batterie"
                                 >
                                     Batterie
@@ -137,6 +129,21 @@ const NavBar = (props) => {
                                 <MenuItem
                                     onClick={handleClose}
                                     component={RouterLink}
+                                    to="/klimaanlagen"
+                                >
+                                    Klimaanlagen
+                                </MenuItem>
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
+                                    to="/kupplung"
+                                >
+                                    Kupplung
+                                </MenuItem>
+
+                                <MenuItem
+                                    onClick={handleClose}
+                                    component={RouterLink}
                                     to="/lenkrad"
                                 >
                                     Lenkrad
@@ -163,7 +170,7 @@ const NavBar = (props) => {
                                     component={RouterLink}
                                     to="/reifen"
                                 >
-                                    Reifen / Felgen
+                                    Räder & Reifen
                                 </MenuItem>
 
                                 <MenuItem
@@ -171,7 +178,7 @@ const NavBar = (props) => {
                                     component={RouterLink}
                                     to="/stossdampfer"
                                 >
-                                    Stossdampfer
+                                    Stoßdämpfer
                                 </MenuItem>
 
                                 <MenuItem
@@ -187,8 +194,9 @@ const NavBar = (props) => {
                                 to="/uber"
                                 color="inherit"
                                 className={classes.navTitle}
+                                style={{ textDecoration: "none" }}
                             >
-                                Über uns
+                                ÜBER UNS
                             </Link>
 
                             <Link
@@ -196,8 +204,9 @@ const NavBar = (props) => {
                                 to="/kontakt"
                                 color="inherit"
                                 className={classes.navTitle}
+                                style={{ textDecoration: "none" }}
                             >
-                                Kontakt
+                                KONTAKT
                             </Link>
                         </div>
                     </Toolbar>
@@ -269,5 +278,9 @@ const useStyles = makeStyles((theme) => ({
         justifyItems: "right",
         alignItems: "center",
     },
-    navTitle: { fontSize: 16, letterSpacing: 3 },
+    navTitle: {
+        fontSize: 16,
+        letterSpacing: 3,
+        textDecoration: "none",
+    },
 }));

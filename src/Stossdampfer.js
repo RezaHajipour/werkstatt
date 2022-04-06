@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Stossdampfer() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,25 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Stoßdämpfer
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Es gibt so manche Autoteile, bei denen vergisst man
+                            mit der Zeit einfach, dass sie existieren. Die
+                            Stoßdämpfer könnte man als so ein Autoteil
+                            bezeichnen. Dass sie sehr wichtige Komponenten eines
+                            jeden Autos sind, ohne die eine Fahrt unmöglich
+                            wäre, wissen die meisten gar nicht. Erst wenn ein
+                            Defekt vorliegt und das Auto nicht mehr das macht,
+                            was es sollte, erinnert man sich wieder an die
+                            Existenz von Stoßdämpfern. Dann helfen wir Ihnen
+                            gerne weiter. <br />
+                            Defekte Stoßdämpfer sind ein Sicherheitsrisiko,
+                            deshalb sollten diese alle 20.000 Kilometer geprüft
+                            werden. Gerne überprüfen wir die Stoßdämpfer auf
+                            Funktionsfähigkeit und ersetzen, wenn notwendig,
+                            defekte Teile mit Ersatzteilen in
+                            Erstausrüsterqualität führender Markenhersteller.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +45,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Stossdampfer;
 
 //----------------Material-ui----------------------
 

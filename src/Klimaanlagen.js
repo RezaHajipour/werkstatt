@@ -1,0 +1,94 @@
+import React from "react";
+import { makeStyles, Typography } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import CardMedia from "@material-ui/core/CardMedia";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import image from "./images/auto-b1.png";
+
+function Klimaanlagen() {
+    const classes = useStyles();
+    return (
+        <section>
+            <Grid container className={classes.root}>
+                <Card className={classes.card1}>
+                    <CardMedia className={classes.media} image={image} />
+                </Card>
+
+                <Card className={classes.card2}>
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="h4">
+                            Klimaanlagen
+                        </Typography>
+                        <Typography>
+                            Bei uns können Sie eine professionelle Kontrolle der
+                            Klimaanlage in Ihrem Auto durchführen lassen.
+                            Außerdem werden wir die notwendigen Servicearbeiten
+                            erledigen, damit wieder alles ordnungsgemäß
+                            funktioniert. Eine Klimaanlage ist sowohl im Sommer
+                            wie auch im Winter angenehm zu verwenden. In der
+                            heißen Jahreszeit sorgt sie für kalte Luft. In der
+                            kalten Jahreszeit übernimmt sie die Trocknung der
+                            Luft, damit die Scheiben nicht beschlagen.
+                            <br /> Wir überprüfen Ihre Klimaanlage auf die
+                            Funktionstüchtigkeit. Außerdem führen wir eine
+                            Wartung durch, die regelmäßig für jede Klimaanlage
+                            empfohlen wird. Bei einer defekten Auto Klimaanlage
+                            können wir dieses Problem ebenfalls beheben. Wir
+                            nehmen nämlich jegliche Reparaturen vor, damit Sie
+                            wieder trockene und kühle Luft im Auto haben. <br />
+                            In unserer KFZ-Werkstatt wird die Klimaanlage in
+                            Ihrem Auto auf Dichtheit überprüft. Dabei führen wir
+                            eine Dichtheitsprüfung mit Formiergas durch. Bei
+                            ständigem Betrieb der Anlage sammeln sich über die
+                            Zeit viele Viren an. Deshalb werden wir eine
+                            Desinfektion des Verdampfers vornehmen. Außerdem
+                            können Sie bei uns Ihre Klimaanlage mit Kältemittel
+                            befüllen lassen. Dabei wird bei uns das Kältemittel
+                            R134a sowie 1234yf eingesetzt.
+                        </Typography>
+                    </CardContent>
+                </Card>
+            </Grid>
+        </section>
+    );
+}
+
+export default Klimaanlagen;
+
+//----------------Material-ui----------------------
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+
+    typography: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    card1: {
+        height: "62.95vh",
+        width: "40vw",
+        boxShadow: "none",
+        backgroundColor: "#fafafa",
+    },
+    card2: {
+        width: "40vw",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        boxShadow: "none",
+        backgroundColor: "#fafafa",
+    },
+    media: {
+        // height: "80vh",
+        // width: "50vh",
+        padding: theme.spacing(1),
+        paddingTop: "86.25%", // 16:9
+    },
+}));

@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Bremse() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,29 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Bremse
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Eine gut funktionierende Bremsanlage ist für die
+                            Sicherheit von höchster Wichtigkeit! Damit Sie sich
+                            in allen Situationen auf Ihre Bremse verlassen
+                            können, prüfen wir die komplette Bremsanlage. Auch
+                            beim Bremsen Wechseln oder dem Ersetzen der
+                            Bremsflüssigkeit vertrauen wir wie bei Bremsscheiben
+                            und Bremsbelägen auf Ersatzteile in
+                            Erstausrüsterqualität führender Markenhersteller.
+                            <br />
+                            <br />
+                            <strong>
+                                Bremsenservice in unserer Werkstatt Enthaltene
+                                Leistungen:
+                            </strong>
+                            <br />
+                            <br />• Prüfung des Bremssystems inkl. der
+                            Bremsschläuche <br />• nach Bedarf fachgerechter
+                            Austausch von Komponenten (Bremsscheiben,
+                            Bremsbeläge und Warnkontakt) <br />• Reinigung der
+                            Bremsen <br />• Kontrolle der Bremswirkung
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +49,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Bremse;
 
 //----------------Material-ui----------------------
 

@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Zundung() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,27 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Zundung
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Dass am Fahrzeug etwas nicht stimmt, erkennen auch
+                            die meisten Laien: Wenn ein Zylinder aufgrund von
+                            Zündaussetzern sporadisch oder dauerhaft ausfällt,
+                            verringert sich nicht nur die Leistung des Fahrzeugs
+                            erheblich, auch im Motorlauf macht sich dies
+                            bemerkbar.
+                            <br />
+                            Dann ist vermutlich die Zündspule deines Autos
+                            defekt. Denn ohne einen kräftigen Zündfunken kommen
+                            Benziner nicht voran, im Gegensatz zu den
+                            Dieselmotoren, bei denen eine Selbstzündung
+                            stattfindet. Grundsätzlich ist die Zündspule kein
+                            klassisches Verschleißteil, sondern hat als ein rein
+                            elektrisches Bauteil eine sehr lange Lebensdauer. So
+                            eine Zündspule hält gut und gerne 100.000 bis
+                            150.000 km durch und manche Autofahrer müssen sie
+                            auch erst nach mehreren hunderttausend Kilometern
+                            austauschen.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +47,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Zundung;
 
 //----------------Material-ui----------------------
 

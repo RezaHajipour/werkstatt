@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Ol() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,28 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Öl-Service
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Regelmäßiger Ölwechsel sorgt für ein langes
+                            Motorleben. Wir verwenden nur Öle führender
+                            Markenhersteller sowie Filter in
+                            Erstausrüsterqualität.
+                            <br />
+                            <br />
+                            <strong>Unsere Aufgaben beim Ölwechsel ?</strong>
+                            <br />
+                            • Unterfahrschutz abbauen <br />
+                            • Altöl ablassen <br />
+                            • Altöl entsorgen <br />
+                            • Alte Ölfiler ausbauen <br />
+                            • Neue Ölfilter einbauen <br />
+                            • Frisches Öl in den Motor füllen <br />
+                            • ggf Ölablasschrauben erneuern ink. Dichtung <br />
+                            • Unterfahrschutz einbauen <br />
+                            • Ölwechselintervallanzeige zurücksetzten <br />
+                            • Ölschild im Motorraum anbringen <br />• nochmals
+                            Ölstand überprüfen
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +48,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Ol;
 
 //----------------Material-ui----------------------
 

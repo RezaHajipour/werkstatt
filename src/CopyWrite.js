@@ -28,7 +28,7 @@ export default function CopyWrite() {
             <AppBar position="static" style={{ background: "#221f1f" }}>
                 <Toolbar>
                     <Box variant="h6" className={classes.title}>
-                        Designed by @ REZA HAJIPOUR
+                        Design by @ REZA HAJIPOUR
                     </Box>
                 </Toolbar>
             </AppBar>

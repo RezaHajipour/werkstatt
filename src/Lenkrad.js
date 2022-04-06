@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Lenkrad() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,23 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Lenkrad/Achsvermessung
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Ihr Auto verhält sich ungewohnt in den Kurven? Die
+                            Lenkung hat Spiel oder hält die Spur nicht mehr?
+                            <br />
+                            Entscheident für das Fahrverhalten und die
+                            Fahreigenschaften Ihres Wagens sind die Korrekt
+                            eingestellte Spur der Sturz und Nachlaufwerte. Mit
+                            unserem Mess und Einstellverfahren können wir bei
+                            der Vermessung nicht nur die Werte prüfen und
+                            einstellen, sondern auch die gesamte Achsgeometrie
+                            des Autos durchchecken und Abweichungen feststellen.
+                            Dies gilt sowohl für die Vermessung der Vorder-
+                            sowie für die Hinterachse. Die Achsvermessung bei
+                            uns beinhaltet: Sichtprüfung der Felden und Reifen.
+                            Vermessung aller Räder Ein Protokoll
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +43,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Lenkrad;
 
 //----------------Material-ui----------------------
 

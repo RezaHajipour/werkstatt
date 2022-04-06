@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import image from "./images/auto-b1.png";
 
-function Auspuff() {
+function Reifen() {
     const classes = useStyles();
     return (
         <section>
@@ -18,28 +18,24 @@ function Auspuff() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Auspuff
+                            Räder & Reifen
                         </Typography>
                         <Typography>
-                            Der Auspuff Ihres Autos reduziert Lärm- und Umwelt-
-                            belastung und schützt Sie vor giftigen Abgasen. Eine
-                            defekte Anlage jedoch gefährdet Sie und andere.
-                            Lassen Sie den Auspuff jetzt kostenlos bei uns
-                            prüfen! Das sichtbare Rohr am hinteren Teil Ihres
-                            Wagens ist nur das letzte Stück der Abgasanlage.
-                            Tatsächlich besteht ein Auspuff aus vielen
-                            verschiedenen Bauteilen: dem Abgaskrümmer, dem
-                            sogenannten Hosenrohr, dem Katalysator sowie bis zu
-                            drei Schalldämpfern. Bei jeder Fahrt werden diese
-                            thermisch extrem beansprucht. Starke
-                            Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            In unserer KFZ Werkstatt können Sie neben der
+                            Montage von Rädern auch noch andere Dienstleistungen
+                            im Bereich Räder & Reifen in Anspruch nehmen. Zum
+                            Beispiel werden Ihre Räder bei uns stationär
+                            gewuchtet. Wir nehmen die Messung vor und sorgen
+                            dafür, dass Ihre Räder keine Unwucht aufweisen.
+                            Durch das Auswuchten werden die Reifen wieder
+                            problemlos laufen. Das heißt, die Abnutzung wird
+                            verringert und Lenkung oder Fahrwerk sind nicht
+                            beeinträchtigt. Sie sollten daher regelmäßig Ihre
+                            Räder und Reifen kontrollieren und Auswuchten
+                            lassen. Wir übernehmen diese Aufgabe gerne für Sie.
+                            Außerdem werden wir uns um einen passenden Termin
+                            kümmern, damit Ihr Fahrzeug keine längere Stehzeit
+                            haben wird.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -48,7 +44,7 @@ function Auspuff() {
     );
 }
 
-export default Auspuff;
+export default Reifen;
 
 //----------------Material-ui----------------------
 

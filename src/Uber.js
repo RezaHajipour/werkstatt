@@ -19,7 +19,7 @@ function Uber() {
                     <Typography gutterBottom variant="h4" component="h4">
                         ÜBER UNS
                     </Typography>
-                    <Typography gutterBottom variant="h6" component="h4">
+                    <Typography>
                         Unsere Werkstatt ist Fachgerecht ausgestattet, so dass
                         alle Reperaturen und Dienstleistungen schnell und zur
                         Kundenzufriedenheit geleistet werden können. So können
