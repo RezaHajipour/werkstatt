@@ -186,7 +186,7 @@ const NavBar = (props) => {
                                     component={RouterLink}
                                     to="/zundung"
                                 >
-                                    Zundung
+                                    Zündung
                                 </MenuItem>
                             </Menu>
                             <Link

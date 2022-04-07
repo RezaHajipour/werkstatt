@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import CardMedia from "@material-ui/core/CardMedia";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import image from "./images/auto-b1.png";
+import image from "./images/back-Zündung.jpeg";
 
 function Zundung() {
     const classes = useStyles();
@@ -18,7 +18,7 @@ function Zundung() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="h4">
-                            Zundung
+                            Zündung
                         </Typography>
                         <Typography>
                             Dass am Fahrzeug etwas nicht stimmt, erkennen auch

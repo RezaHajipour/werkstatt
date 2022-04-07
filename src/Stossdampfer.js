@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import CardMedia from "@material-ui/core/CardMedia";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import image from "./images/auto-b1.png";
+import image from "./images/back-Stoßdämpfer.jpeg";
 
 function Stossdampfer() {
     const classes = useStyles();
