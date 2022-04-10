@@ -14,6 +14,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import { NavLink as RouterLink } from "react-router-dom";
 import { Link } from "@material-ui/core";
 import { ReactComponent as Logo } from "./images/logo-a2.svg";
+import MenuIcon from "@material-ui/icons/Menu";
 
 const NavBar = (props) => {
     const classes = useStyles();

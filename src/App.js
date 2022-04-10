@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 import Footer from "./Footer";
 import CopyWrite from "./CopyWrite";
 import Home from "./Home";
@@ -22,11 +22,12 @@ import Reifen from "./Reifen";
 import Stossdampfer from "./Stossdampfer";
 import Zundung from "./Zundung";
 import Kupplung from "./Kupplung";
+import NewNav from "./NewNav";
 
 const App = () => {
     return (
         <BrowserRouter>
-            <NavBar />
+            <NewNav />
             <div>
                 <Route path="/" exact>
                     <Home />

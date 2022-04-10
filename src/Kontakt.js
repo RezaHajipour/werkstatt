@@ -54,8 +54,7 @@ function Kontakt() {
                                 <strong>Telefon</strong>
                             </Typography>
                             <Typography>
-                                Rufen Sie an unter: 040 - 1808 1289 <br />
-                                Mobile: 0176 45 88 0462
+                                Rufen Sie an unter: 040 - 1808 1289
                             </Typography>
                         </CardContent>
                     </Card>
@@ -69,8 +68,8 @@ function Kontakt() {
                                 <strong>Öffnungszeiten</strong>
                             </Typography>
                             <Typography>
-                                Montag - Freitag: 9:00--17:00 <br />
-                                Samstag: 8:00-13:00
+                                Montag - Freitag: 9:00--18:00 <br />
+                                Samstag: 10:00-15:00
                             </Typography>
                         </CardContent>
                     </Card>

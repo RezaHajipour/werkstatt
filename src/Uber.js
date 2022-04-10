@@ -50,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
+        [theme.breakpoints.down("xs")]: {
+            flexDirection: "column",
+        },
     },
 
     typography: {
