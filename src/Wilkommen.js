@@ -84,6 +84,9 @@ const useStyles = makeStyles((theme) => ({
         minHeight: "70vh",
         backgroundColor: "#dddddd",
         boxShadow: "none",
+        [theme.breakpoints.down("xs")]: {
+            maxWidth: "90%",
+        },
     },
 
     typography: {
@@ -97,8 +100,14 @@ const useStyles = makeStyles((theme) => ({
         align: "justify",
         letterSpacing: "0.016em",
         lineHeight: 2.5,
+        [theme.breakpoints.down("xs")]: {
+            fontSize: [16, "!important"],
+        },
     },
     title: {
         color: "#00bad4",
+        [theme.breakpoints.down("xs")]: {
+            fontSize: [22, "!important"],
+        },
     },
 }));

@@ -17,7 +17,7 @@ function Karosserie() {
 
                 <Card className={classes.card2}>
                     <CardContent>
-                        <Typography gutterBottom variant="h4" component="h4">
+                        <Typography gutterBottom variant="h5" component="h4">
                             Karosserie
                         </Typography>
                         <Typography>
@@ -61,7 +61,11 @@ const useStyles = makeStyles((theme) => ({
         height: "62.95vh",
         width: "40vw",
         boxShadow: "none",
-        backgroundColor: "#fafafa",
+        // backgroundColor: "#fafafa",
+        [theme.breakpoints.down("xs")]: {
+            height: "40vh",
+            width: "100vw",
+        },
     },
     card2: {
         width: "40vw",
@@ -69,7 +73,11 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "center",
         boxShadow: "none",
-        backgroundColor: "#fafafa",
+        // backgroundColor: "#fafafa",
+        [theme.breakpoints.down("xs")]: {
+            height: "60vh",
+            width: "100vw",
+        },
     },
     media: {
         // height: "80vh",

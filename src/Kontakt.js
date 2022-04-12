@@ -8,16 +8,12 @@ function Kontakt() {
     const classes = useStyles();
     return (
         <section>
-            <h1 className={classes.title}>Wir sind für Sie da!</h1>
+            <h2 className={classes.title}>Wir sind für Sie da!</h2>
             <Grid container className={classes.root}>
                 <div>
                     <Card className={classes.card2}>
                         <CardContent>
-                            <Typography
-                                gutterBottom
-                                variant="h6"
-                                component="h4"
-                            >
+                            <Typography>
                                 <strong>Anschrift</strong>
                             </Typography>
                             <Typography>
@@ -30,11 +26,7 @@ function Kontakt() {
                     </Card>
                     <Card className={classes.card2}>
                         <CardContent>
-                            <Typography
-                                gutterBottom
-                                variant="h6"
-                                component="h4"
-                            >
+                            <Typography>
                                 <strong>Online</strong>
                             </Typography>
                             <Typography>
@@ -46,11 +38,7 @@ function Kontakt() {
                 <div>
                     <Card className={classes.card2}>
                         <CardContent>
-                            <Typography
-                                gutterBottom
-                                variant="h6"
-                                component="h4"
-                            >
+                            <Typography>
                                 <strong>Telefon</strong>
                             </Typography>
                             <Typography>
@@ -60,11 +48,7 @@ function Kontakt() {
                     </Card>
                     <Card className={classes.card2}>
                         <CardContent>
-                            <Typography
-                                gutterBottom
-                                variant="h6"
-                                component="h4"
-                            >
+                            <Typography>
                                 <strong>Öffnungszeiten</strong>
                             </Typography>
                             <Typography>
@@ -90,6 +74,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         alignItems: "flex-start",
         height: "50vh",
+        [theme.breakpoints.down("xs")]: { height: "100%" },
     },
 
     typography: {
@@ -104,11 +89,18 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "flex-start",
         boxShadow: "none",
-        backgroundColor: "#fafafa",
+        // backgroundColor: "#fafafa",
+        [theme.breakpoints.down("xs")]: {
+            width: "100%",
+            height: "100%",
+        },
     },
     title: {
         textAlign: "center",
         paddingTop: "1em",
         fontSize: "2em",
+        [theme.breakpoints.down("xs")]: {
+            fontSize: [20, "!important"],
+        },
     },
 }));
