@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Zündung.jpeg";
+import image from "../images/back-Bremse.jpeg";
 
-function Zundung() {
+function Bremse() {
     const classes = useStyles();
     return (
         <section>
@@ -21,27 +21,29 @@ function Zundung() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Zündung
+                            Bremse
                         </Typography>
                         <Typography>
-                            Dass am Fahrzeug etwas nicht stimmt, erkennen auch
-                            die meisten Laien: Wenn ein Zylinder aufgrund von
-                            Zündaussetzern sporadisch oder dauerhaft ausfällt,
-                            verringert sich nicht nur die Leistung des Fahrzeugs
-                            erheblich, auch im Motorlauf macht sich dies
-                            bemerkbar.
+                            Eine gut funktionierende Bremsanlage ist für die
+                            Sicherheit von höchster Wichtigkeit! Damit Sie sich
+                            in allen Situationen auf Ihre Bremse verlassen
+                            können, prüfen wir die komplette Bremsanlage. Auch
+                            beim Bremsen Wechseln oder dem Ersetzen der
+                            Bremsflüssigkeit vertrauen wir wie bei Bremsscheiben
+                            und Bremsbelägen auf Ersatzteile in
+                            Erstausrüsterqualität führender Markenhersteller.
                             <br />
-                            Dann ist vermutlich die Zündspule deines Autos
-                            defekt. Denn ohne einen kräftigen Zündfunken kommen
-                            Benziner nicht voran, im Gegensatz zu den
-                            Dieselmotoren, bei denen eine Selbstzündung
-                            stattfindet. Grundsätzlich ist die Zündspule kein
-                            klassisches Verschleißteil, sondern hat als ein rein
-                            elektrisches Bauteil eine sehr lange Lebensdauer. So
-                            eine Zündspule hält gut und gerne 100.000 bis
-                            150.000 km durch und manche Autofahrer müssen sie
-                            auch erst nach mehreren hunderttausend Kilometern
-                            austauschen.
+                            <br />
+                            <strong>
+                                Bremsenservice in unserer Werkstatt Enthaltene
+                                Leistungen:
+                            </strong>
+                            <br />
+                            <br />• Prüfung des Bremssystems inkl. der
+                            Bremsschläuche <br />• nach Bedarf fachgerechter
+                            Austausch von Komponenten (Bremsscheiben,
+                            Bremsbeläge und Warnkontakt) <br />• Reinigung der
+                            Bremsen <br />• Kontrolle der Bremswirkung
                         </Typography>
                     </CardContent>
                 </Card>
@@ -50,7 +52,7 @@ function Zundung() {
     );
 }
 
-export default Zundung;
+export default Bremse;
 
 //----------------Material-ui----------------------
 
@@ -83,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "80vh",
+            height: "100%",
             width: "100vw",
         },
     },

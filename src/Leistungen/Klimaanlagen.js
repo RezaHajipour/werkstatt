@@ -7,7 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-klimaanlage.jpeg";
+import image from "../images/back-klimaanlage.jpeg";
 
 function Klimaanlagen() {
     const classes = useStyles();

@@ -7,7 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Stoßdämpfer.jpeg";
+import image from "../images/back-Stoßdämpfer.jpeg";
 
 function Stossdampfer() {
     const classes = useStyles();

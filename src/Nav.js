@@ -405,16 +405,11 @@ export default Nav;
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        // flexGrow: 1,
-        // display: "flex",
-        // justifyContent: "center",
-        // alignItems: "center",
         backgroundColor: "rgb(0, 186, 212)",
         boxShadow: "none",
         padding: ".5rem 0",
         "& a": {
             color: "#ffffff",
-            // fontWeight: 700,
             textDecoration: "none",
         },
         [theme.breakpoints.down("xs")]: { height: "7rem" },
@@ -437,7 +432,6 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        width: "100%",
         [theme.breakpoints.down("xs")]: { padding: "1rem" },
     },
     mobileLogo: {

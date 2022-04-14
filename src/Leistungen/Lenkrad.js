@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Karosserie.jpeg";
+import image from "../images/back-Lenkrad.jpeg";
 
-function Karosserie() {
+function Lenkrad() {
     const classes = useStyles();
     return (
         <section>
@@ -20,21 +20,24 @@ function Karosserie() {
 
                 <Card className={classes.card2}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h4">
-                            Karosserie
+                        <Typography variant="h5" component="h4">
+                            Lenkrad/Achsvermessung
                         </Typography>
                         <Typography>
-                            Durch den Einsatz hochwertiger
-                            Karosserie-Richtbanksysteme wird bei komplizierten
-                            Unfallschäden eine exakte Mess- und Pass-
-                            genauigkeit der Karosserie und deren Anbauteilen
-                            erreicht. Hier wird eine Verbindung geschaffen
-                            zwischen millimetergenauen Richtens der Karosserie
-                            und einer elektronischen Computer-Achsvermessung.
-                            Somit wird eine exakte Unfall-Instandsetzung
-                            ermöglicht. Bilder rechts: Bei den Schweißarbeiten
-                            wird mit modernster Technik punktgenau auch bei
-                            hochfesten Stählen Maßarbeit geleistet.
+                            Ihr Auto verhält sich ungewohnt in den Kurven? Die
+                            Lenkung hat Spiel oder hält die Spur nicht mehr?
+                            <br />
+                            Entscheident für das Fahrverhalten und die
+                            Fahreigenschaften Ihres Wagens sind die Korrekt
+                            eingestellte Spur der Sturz und Nachlaufwerte. Mit
+                            unserem Mess und Einstellverfahren können wir bei
+                            der Vermessung nicht nur die Werte prüfen und
+                            einstellen, sondern auch die gesamte Achsgeometrie
+                            des Autos durchchecken und Abweichungen feststellen.
+                            Dies gilt sowohl für die Vermessung der Vorder-
+                            sowie für die Hinterachse. Die Achsvermessung bei
+                            uns beinhaltet: Sichtprüfung der Felden und Reifen.
+                            Vermessung aller Räder Ein Protokoll
                         </Typography>
                     </CardContent>
                 </Card>
@@ -43,7 +46,7 @@ function Karosserie() {
     );
 }
 
-export default Karosserie;
+export default Lenkrad;
 
 //----------------Material-ui----------------------
 
@@ -76,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "60vh",
+            height: "65vh",
             width: "100vw",
         },
     },

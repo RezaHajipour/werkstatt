@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Getriebe.jpeg";
+import image from "../images/back-Karosserie.jpeg";
 
-function Getriebe() {
+function Karosserie() {
     const classes = useStyles();
     return (
         <section>
@@ -21,18 +21,20 @@ function Getriebe() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Getriebe
+                            Karosserie
                         </Typography>
                         <Typography>
-                            Bei einer Getriebe Instandsetzung wird das komplette
-                            Getriebe zerlegt, untersucht, geprüft und gereinigt.
-                            Alle defekten sowie verschlissenen Einzelteile
-                            werden ersetzt oder erneuert. Anschließend wird das
-                            Getriebe unter Berücksichtigung kleiner eventuell
-                            auftretender, technischen Änderungen, wieder
-                            zusammengebaut. Nach Wiedereinbau wird das Getriebe
-                            und alle relevanten Komponenten auf Ihre Funktion
-                            geprüft.
+                            Durch den Einsatz hochwertiger
+                            Karosserie-Richtbanksysteme wird bei komplizierten
+                            Unfallschäden eine exakte Mess- und Pass-
+                            genauigkeit der Karosserie und deren Anbauteilen
+                            erreicht. Hier wird eine Verbindung geschaffen
+                            zwischen millimetergenauen Richtens der Karosserie
+                            und einer elektronischen Computer-Achsvermessung.
+                            Somit wird eine exakte Unfall-Instandsetzung
+                            ermöglicht. Bilder rechts: Bei den Schweißarbeiten
+                            wird mit modernster Technik punktgenau auch bei
+                            hochfesten Stählen Maßarbeit geleistet.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -41,7 +43,7 @@ function Getriebe() {
     );
 }
 
-export default Getriebe;
+export default Karosserie;
 
 //----------------Material-ui----------------------
 
@@ -74,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "100%",
+            height: "60vh",
             width: "100vw",
         },
     },

@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Kupplung.jpeg";
+import image from "../images/back-Reifen.jpeg";
 
-function Kupplung() {
+function Reifen() {
     const classes = useStyles();
     return (
         <section>
@@ -21,17 +21,24 @@ function Kupplung() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Kupplung
+                            Räder & Reifen
                         </Typography>
                         <Typography>
-                            Die Kupplung ist ein Verschleißteil. In der Regel
-                            macht sie sich erst nach mehreren Jahren bemerkbar.
-                            Damit es dazu gar nicht erst kommt, wird die
-                            Kupplung von unserem Service-Team auf Wunsch
-                            kontrolliert. Wenn sie bereits defekt ist,
-                            reparieren wir den Schaden oder tauschen die
-                            Kupplung aus. Selbstverständlich bauen wir nur
-                            Ersatzteile in Erstausrüsterqualität ein.
+                            In unserer KFZ Werkstatt können Sie neben der
+                            Montage von Rädern auch noch andere Dienstleistungen
+                            im Bereich Räder & Reifen in Anspruch nehmen. Zum
+                            Beispiel werden Ihre Räder bei uns stationär
+                            gewuchtet. Wir nehmen die Messung vor und sorgen
+                            dafür, dass Ihre Räder keine Unwucht aufweisen.
+                            Durch das Auswuchten werden die Reifen wieder
+                            problemlos laufen. Das heißt, die Abnutzung wird
+                            verringert und Lenkung oder Fahrwerk sind nicht
+                            beeinträchtigt. Sie sollten daher regelmäßig Ihre
+                            Räder und Reifen kontrollieren und Auswuchten
+                            lassen. Wir übernehmen diese Aufgabe gerne für Sie.
+                            Außerdem werden wir uns um einen passenden Termin
+                            kümmern, damit Ihr Fahrzeug keine längere Stehzeit
+                            haben wird.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -40,7 +47,7 @@ function Kupplung() {
     );
 }
 
-export default Kupplung;
+export default Reifen;
 
 //----------------Material-ui----------------------
 
@@ -73,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "40vh",
+            height: "80vh",
             width: "100vw",
         },
     },

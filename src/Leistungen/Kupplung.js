@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-ol.jpeg";
+import image from "../images/back-Kupplung.jpeg";
 
-function Ol() {
+function Kupplung() {
     const classes = useStyles();
     return (
         <section>
@@ -21,28 +21,17 @@ function Ol() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Öl-Service
+                            Kupplung
                         </Typography>
                         <Typography>
-                            Regelmäßiger Ölwechsel sorgt für ein langes
-                            Motorleben. Wir verwenden nur Öle führender
-                            Markenhersteller sowie Filter in
-                            Erstausrüsterqualität.
-                            <br />
-                            <br />
-                            <strong>Unsere Aufgaben beim Ölwechsel ?</strong>
-                            <br />
-                            • Unterfahrschutz abbauen <br />
-                            • Altöl ablassen <br />
-                            • Altöl entsorgen <br />
-                            • Alte Ölfiler ausbauen <br />
-                            • Neue Ölfilter einbauen <br />
-                            • Frisches Öl in den Motor füllen <br />
-                            • ggf Ölablasschrauben erneuern ink. Dichtung <br />
-                            • Unterfahrschutz einbauen <br />
-                            • Ölwechselintervallanzeige zurücksetzten <br />
-                            • Ölschild im Motorraum anbringen <br />• nochmals
-                            Ölstand überprüfen
+                            Die Kupplung ist ein Verschleißteil. In der Regel
+                            macht sie sich erst nach mehreren Jahren bemerkbar.
+                            Damit es dazu gar nicht erst kommt, wird die
+                            Kupplung von unserem Service-Team auf Wunsch
+                            kontrolliert. Wenn sie bereits defekt ist,
+                            reparieren wir den Schaden oder tauschen die
+                            Kupplung aus. Selbstverständlich bauen wir nur
+                            Ersatzteile in Erstausrüsterqualität ein.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -51,7 +40,7 @@ function Ol() {
     );
 }
 
-export default Ol;
+export default Kupplung;
 
 //----------------Material-ui----------------------
 
@@ -84,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "80vh",
+            height: "40vh",
             width: "100vw",
         },
     },

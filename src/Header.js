@@ -50,19 +50,17 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         color: "black",
-        fontSize: "25px",
-        fontWeight: "bold",
-        letterSpacing: "1px",
-        textShadow: "-1px 0px 1px rgb(0, 186, 212)",
+        fontSize: "22px",
+        letterSpacing: ".5px",
         [theme.breakpoints.down("xs")]: {
-            fontSize: [22, "!important"],
+            fontSize: [10, "!important"],
         },
     },
     card1: {
         backgroundColor: "rgba(250, 250, 250)",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            maxWidth: "90%",
+            // maxWidth: "90%",
         },
     },
     card2: {
@@ -70,12 +68,15 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "rgba(250, 250, 250)",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            maxWidth: "90%",
+            width: "70%",
         },
     },
     media: {
         padding: theme.spacing(1),
-        paddingTop: "75%", // 16:9
+        paddingTop: "60%", // 16:9
+        [theme.breakpoints.down("xs")]: {
+            paddingTop: "65%",
+        },
     },
 
     typography: {

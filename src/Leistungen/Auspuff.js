@@ -7,8 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-
-import image from "./images/back-Auspuff.jpeg";
+import image from "../images/back-Auspuff.jpeg";
 
 function Auspuff() {
     const classes = useStyles();

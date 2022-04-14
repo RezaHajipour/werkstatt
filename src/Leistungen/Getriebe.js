@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Lenkrad.jpeg";
+import image from "../images/back-Getriebe.jpeg";
 
-function Lenkrad() {
+function Getriebe() {
     const classes = useStyles();
     return (
         <section>
@@ -20,24 +20,19 @@ function Lenkrad() {
 
                 <Card className={classes.card2}>
                     <CardContent>
-                        <Typography variant="h5" component="h4">
-                            Lenkrad/Achsvermessung
+                        <Typography gutterBottom variant="h5" component="h4">
+                            Getriebe
                         </Typography>
                         <Typography>
-                            Ihr Auto verhält sich ungewohnt in den Kurven? Die
-                            Lenkung hat Spiel oder hält die Spur nicht mehr?
-                            <br />
-                            Entscheident für das Fahrverhalten und die
-                            Fahreigenschaften Ihres Wagens sind die Korrekt
-                            eingestellte Spur der Sturz und Nachlaufwerte. Mit
-                            unserem Mess und Einstellverfahren können wir bei
-                            der Vermessung nicht nur die Werte prüfen und
-                            einstellen, sondern auch die gesamte Achsgeometrie
-                            des Autos durchchecken und Abweichungen feststellen.
-                            Dies gilt sowohl für die Vermessung der Vorder-
-                            sowie für die Hinterachse. Die Achsvermessung bei
-                            uns beinhaltet: Sichtprüfung der Felden und Reifen.
-                            Vermessung aller Räder Ein Protokoll
+                            Bei einer Getriebe Instandsetzung wird das komplette
+                            Getriebe zerlegt, untersucht, geprüft und gereinigt.
+                            Alle defekten sowie verschlissenen Einzelteile
+                            werden ersetzt oder erneuert. Anschließend wird das
+                            Getriebe unter Berücksichtigung kleiner eventuell
+                            auftretender, technischen Änderungen, wieder
+                            zusammengebaut. Nach Wiedereinbau wird das Getriebe
+                            und alle relevanten Komponenten auf Ihre Funktion
+                            geprüft.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -46,7 +41,7 @@ function Lenkrad() {
     );
 }
 
-export default Lenkrad;
+export default Getriebe;
 
 //----------------Material-ui----------------------
 
@@ -79,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "65vh",
+            height: "100%",
             width: "100vw",
         },
     },

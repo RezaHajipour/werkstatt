@@ -1,33 +1,32 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-// import NavBar from "./NavBar";
+import Nav from "./Nav";
 import Footer from "./Footer";
 import CopyWrite from "./CopyWrite";
 import Home from "./Home";
 import Uber from "./Uber";
 import Kontakt from "./Kontakt";
-import Auspuff from "./Auspuff";
-import Klimaanlagen from "./Klimaanlagen";
-import Batterie from "./Batterie";
-import Bremse from "./Bremse";
-import Diagnose from "./Diagnose";
-import Getriebe from "./Getriebe";
-import Hu from "./Hu";
-import Inspektion from "./Inspektion";
-import Karosserie from "./Karosserie";
-import Lenkrad from "./Lenkrad";
-import Motor from "./Motor";
-import Ol from "./Ol";
-import Reifen from "./Reifen";
-import Stossdampfer from "./Stossdampfer";
-import Zundung from "./Zundung";
-import Kupplung from "./Kupplung";
-import NewNav from "./NewNav";
+import Auspuff from "./Leistungen/Auspuff";
+import Klimaanlagen from "./Leistungen/Klimaanlagen";
+import Batterie from "./Leistungen/Batterie";
+import Bremse from "./Leistungen/Bremse";
+import Diagnose from "./Leistungen/Diagnose";
+import Getriebe from "./Leistungen/Getriebe";
+import Hu from "./Leistungen/Hu";
+import Inspektion from "./Leistungen/Inspektion";
+import Karosserie from "./Leistungen/Karosserie";
+import Kupplung from "./Leistungen/Kupplung";
+import Lenkrad from "./Leistungen/Lenkrad";
+import Motor from "./Leistungen/Motor";
+import Ol from "./Leistungen/Ol";
+import Reifen from "./Leistungen/Reifen";
+import Stossdampfer from "./Leistungen/Stossdampfer";
+import Zundung from "./Leistungen/Zundung";
 
 const App = () => {
     return (
         <BrowserRouter>
-            <NewNav />
+            <Nav />
             <div>
                 <Route path="/" exact>
                     <Home />

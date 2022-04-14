@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-motor.jpeg";
+import image from "../images/back-Diagnose.jpeg";
 
-function Motor() {
+function Diagnose() {
     const classes = useStyles();
     return (
         <section>
@@ -21,20 +21,23 @@ function Motor() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Motor
+                            Diagnose
                         </Typography>
                         <Typography>
-                            Im Gegensatz zu vielen anderen Bestandteilen, kann
-                            die intensive Nutzung des Fahrzeugs vor allem zur
-                            Verkürzung der Motor-Lebensdauer führen. Doch nicht
-                            immer muss es den kompletten Ersatz des Motors
-                            bedeuten. Oft ist eine Überholung die
-                            wirtschaftlichere Lösung. Unter Einhaltung von
-                            gewissen Leistungsstandards die vom Hersteller
-                            angegeben werden, ist es möglich durch eine
-                            Generalüberholung oder eine Instandsetzung, die
-                            ursprüngliche Motorenleistung, gemäß
-                            Bauartzulassung, wieder zu gewährleisten.
+                            Wenn ein Lämpchen im Cockpit Ihres Autos
+                            aufleuchtet, ist es Zeit für eine Fehlerdiagnose.
+                            Dafür lesen wir den Fehlerspeicher Ihres Autos aus
+                            und können so schnell und einfach feststellen, wo
+                            der Schuh drückt. Die Fehlerdiagnose erlaubt es uns,
+                            mögliche Defekte frühzeitig zu erkennen. So können
+                            wir Reparaturen an Ihrem Auto vornehmen, bevor es zu
+                            größeren Schäden, Ausfällen oder gar Unfällen kommt.
+                            <br />
+                            Die Technik und Elektronik moderner Fahrzeuge wird
+                            immer komplexer. Wir verfügen über neueste
+                            technische Informationen, modernste und hochwertige
+                            Prüftechnik und sind durch laufende Weiterbildung
+                            technisch auf dem aktuellen Stand.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -43,7 +46,7 @@ function Motor() {
     );
 }
 
-export default Motor;
+export default Diagnose;
 
 //----------------Material-ui----------------------
 
@@ -76,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "55vh",
+            height: "100%",
             width: "100vw",
         },
     },

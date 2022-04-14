@@ -7,7 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-hu.png";
+import image from "../images/back-hu.png";
 
 function Hu() {
     const classes = useStyles();

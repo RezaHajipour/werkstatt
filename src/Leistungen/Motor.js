@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Reifen.jpeg";
+import image from "../images/back-motor.jpeg";
 
-function Reifen() {
+function Motor() {
     const classes = useStyles();
     return (
         <section>
@@ -21,24 +21,20 @@ function Reifen() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Räder & Reifen
+                            Motor
                         </Typography>
                         <Typography>
-                            In unserer KFZ Werkstatt können Sie neben der
-                            Montage von Rädern auch noch andere Dienstleistungen
-                            im Bereich Räder & Reifen in Anspruch nehmen. Zum
-                            Beispiel werden Ihre Räder bei uns stationär
-                            gewuchtet. Wir nehmen die Messung vor und sorgen
-                            dafür, dass Ihre Räder keine Unwucht aufweisen.
-                            Durch das Auswuchten werden die Reifen wieder
-                            problemlos laufen. Das heißt, die Abnutzung wird
-                            verringert und Lenkung oder Fahrwerk sind nicht
-                            beeinträchtigt. Sie sollten daher regelmäßig Ihre
-                            Räder und Reifen kontrollieren und Auswuchten
-                            lassen. Wir übernehmen diese Aufgabe gerne für Sie.
-                            Außerdem werden wir uns um einen passenden Termin
-                            kümmern, damit Ihr Fahrzeug keine längere Stehzeit
-                            haben wird.
+                            Im Gegensatz zu vielen anderen Bestandteilen, kann
+                            die intensive Nutzung des Fahrzeugs vor allem zur
+                            Verkürzung der Motor-Lebensdauer führen. Doch nicht
+                            immer muss es den kompletten Ersatz des Motors
+                            bedeuten. Oft ist eine Überholung die
+                            wirtschaftlichere Lösung. Unter Einhaltung von
+                            gewissen Leistungsstandards die vom Hersteller
+                            angegeben werden, ist es möglich durch eine
+                            Generalüberholung oder eine Instandsetzung, die
+                            ursprüngliche Motorenleistung, gemäß
+                            Bauartzulassung, wieder zu gewährleisten.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -47,7 +43,7 @@ function Reifen() {
     );
 }
 
-export default Reifen;
+export default Motor;
 
 //----------------Material-ui----------------------
 
@@ -80,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "80vh",
+            height: "55vh",
             width: "100vw",
         },
     },

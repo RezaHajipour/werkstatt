@@ -1,38 +1,11 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import { makeStyles, Typography } from "@material-ui/core";
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-        justifyContent: "space-around",
-        alignItems: "flex-start",
-        textAlign: "center",
-        flexBasis: "0%",
-        backgroundColor: "#00bad4",
-        boxShadow: "0",
-    },
-
-    card: {
-        maxWidth: 400,
-        maxHeight: 300,
-        backgroundColor: "#00bad4",
-        boxShadow: "none",
-    },
-
-    typography: {
-        display: "flex",
-        bgcolor: "lightgreen",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    media: {
-        paddingTop: "70%",
-        backgroundSize: "60%",
-    },
-}));
+import {
+    makeStyles,
+    Typography,
+    Grid,
+    Card,
+    CardContent,
+} from "@material-ui/core";
 
 export default function ButtonAppBar() {
     const classes = useStyles();
@@ -138,3 +111,33 @@ export default function ButtonAppBar() {
         </div>
     );
 }
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        justifyContent: "space-around",
+        alignItems: "flex-start",
+        textAlign: "center",
+        flexBasis: "0%",
+        backgroundColor: "#00bad4",
+        boxShadow: "0",
+    },
+
+    card: {
+        maxWidth: 400,
+        maxHeight: 300,
+        backgroundColor: "#00bad4",
+        boxShadow: "none",
+    },
+
+    typography: {
+        display: "flex",
+        bgcolor: "lightgreen",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    media: {
+        paddingTop: "70%",
+        backgroundSize: "60%",
+    },
+}));

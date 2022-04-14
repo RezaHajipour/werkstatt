@@ -7,7 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Batterie.jpeg";
+import image from "../images/back-Batterie.jpeg";
 
 function Batterie() {
     const classes = useStyles();

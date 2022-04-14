@@ -7,7 +7,7 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/auto-b1.png";
+import image from "../images/auto-b1.png";
 
 function Inspektion() {
     const classes = useStyles();

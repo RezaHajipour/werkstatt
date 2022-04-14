@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "./images/back-Diagnose.jpeg";
+import image from "../images/back-ol.jpeg";
 
-function Diagnose() {
+function Ol() {
     const classes = useStyles();
     return (
         <section>
@@ -21,23 +21,28 @@ function Diagnose() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Diagnose
+                            Öl-Service
                         </Typography>
                         <Typography>
-                            Wenn ein Lämpchen im Cockpit Ihres Autos
-                            aufleuchtet, ist es Zeit für eine Fehlerdiagnose.
-                            Dafür lesen wir den Fehlerspeicher Ihres Autos aus
-                            und können so schnell und einfach feststellen, wo
-                            der Schuh drückt. Die Fehlerdiagnose erlaubt es uns,
-                            mögliche Defekte frühzeitig zu erkennen. So können
-                            wir Reparaturen an Ihrem Auto vornehmen, bevor es zu
-                            größeren Schäden, Ausfällen oder gar Unfällen kommt.
+                            Regelmäßiger Ölwechsel sorgt für ein langes
+                            Motorleben. Wir verwenden nur Öle führender
+                            Markenhersteller sowie Filter in
+                            Erstausrüsterqualität.
                             <br />
-                            Die Technik und Elektronik moderner Fahrzeuge wird
-                            immer komplexer. Wir verfügen über neueste
-                            technische Informationen, modernste und hochwertige
-                            Prüftechnik und sind durch laufende Weiterbildung
-                            technisch auf dem aktuellen Stand.
+                            <br />
+                            <strong>Unsere Aufgaben beim Ölwechsel ?</strong>
+                            <br />
+                            • Unterfahrschutz abbauen <br />
+                            • Altöl ablassen <br />
+                            • Altöl entsorgen <br />
+                            • Alte Ölfiler ausbauen <br />
+                            • Neue Ölfilter einbauen <br />
+                            • Frisches Öl in den Motor füllen <br />
+                            • ggf Ölablasschrauben erneuern ink. Dichtung <br />
+                            • Unterfahrschutz einbauen <br />
+                            • Ölwechselintervallanzeige zurücksetzten <br />
+                            • Ölschild im Motorraum anbringen <br />• nochmals
+                            Ölstand überprüfen
                         </Typography>
                     </CardContent>
                 </Card>
@@ -46,7 +51,7 @@ function Diagnose() {
     );
 }
 
-export default Diagnose;
+export default Ol;
 
 //----------------Material-ui----------------------
 
@@ -79,7 +84,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "100%",
+            height: "80vh",
             width: "100vw",
         },
     },
