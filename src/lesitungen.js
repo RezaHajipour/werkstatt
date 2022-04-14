@@ -1,8 +1,11 @@
 import * as React from "react";
-import { makeStyles, Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import CardMedia from "@material-ui/core/CardMedia";
-import Card from "@material-ui/core/Card";
+import {
+    makeStyles,
+    Typography,
+    Card,
+    CardMedia,
+    Grid,
+} from "@material-ui/core";
 import motor from "./images/motor.png";
 import getriebe from "./images/getriebe.png";
 import lenkrader from "./images/lenkrader.png";

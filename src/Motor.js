@@ -1,9 +1,12 @@
 import React from "react";
-import { makeStyles, Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import CardMedia from "@material-ui/core/CardMedia";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+import {
+    makeStyles,
+    Typography,
+    Card,
+    CardContent,
+    CardMedia,
+    Grid,
+} from "@material-ui/core";
 import image from "./images/back-motor.jpeg";
 
 function Motor() {
@@ -61,7 +64,6 @@ const useStyles = makeStyles((theme) => ({
         height: "62.95vh",
         width: "40vw",
         boxShadow: "none",
-        // backgroundColor: "#fafafa",
         [theme.breakpoints.down("xs")]: {
             height: "40vh",
             width: "100vw",
@@ -73,15 +75,12 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "center",
         boxShadow: "none",
-        // backgroundColor: "#fafafa",
         [theme.breakpoints.down("xs")]: {
             height: "55vh",
             width: "100vw",
         },
     },
     media: {
-        // height: "80vh",
-        // width: "50vh",
         padding: theme.spacing(1),
         paddingTop: "86.25%", // 16:9
     },

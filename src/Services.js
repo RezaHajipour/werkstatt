@@ -1,13 +1,15 @@
 import * as React from "react";
-import "./Leistungen.css";
-import { makeStyles, Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import CardMedia from "@material-ui/core/CardMedia";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardContent from "@material-ui/core/CardContent";
-import { Link } from "@material-ui/core";
 import { NavLink as RouterLink } from "react-router-dom";
+import {
+    makeStyles,
+    Typography,
+    Card,
+    CardContent,
+    CardMedia,
+    CardActionArea,
+    Grid,
+    Link,
+} from "@material-ui/core";
 import inspektion from "./images/inspektion.png";
 import meisterbetrieb from "./images/meisterbetrieb.png";
 import huAu from "./images/huAu.png";
@@ -238,7 +240,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#eeeeee",
         boxShadow: "none",
         "&:hover": {
-            // boxShadow: "0px 5px 15px 10px rgba(0,0,0,0.3)",
             backgroundColor: "#61dafb",
             textDecoration: "none",
             boxShadow:

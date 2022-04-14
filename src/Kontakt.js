@@ -1,8 +1,11 @@
 import React from "react";
-import { makeStyles, Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+import {
+    makeStyles,
+    Typography,
+    Card,
+    CardContent,
+    Grid,
+} from "@material-ui/core";
 
 function Kontakt() {
     const classes = useStyles();
@@ -89,7 +92,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "flex-start",
         boxShadow: "none",
-        // backgroundColor: "#fafafa",
         [theme.breakpoints.down("xs")]: {
             width: "100%",
             height: "100%",
