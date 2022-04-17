@@ -24,9 +24,9 @@ function Uber() {
                     </Typography>
                     <Typography>
                         Unsere Werkstatt ist Fachgerecht ausgestattet, so dass
-                        alle Reperaturen und Dienstleistungen schnell und zur
+                        alle Reparaturen und Dienstleistungen schnell und zur
                         Kundenzufriedenheit geleistet werden können. So können
-                        aufgrund drei Hebebühnen mehrere Reperaturen
+                        aufgrund drei Hebebühnen mehrere Reparaturen
                         gleichzeitig von unserem Team verrichtet werden ohne das
                         lange Wartezeiten aufkommen. Auch die Reperaturen von
                         Lastwagen stellen aufgrund einer Arbeitsgrube kein

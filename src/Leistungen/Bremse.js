@@ -28,7 +28,7 @@ function Bremse() {
                             Sicherheit von höchster Wichtigkeit! Damit Sie sich
                             in allen Situationen auf Ihre Bremse verlassen
                             können, prüfen wir die komplette Bremsanlage. Auch
-                            beim Bremsen Wechseln oder dem Ersetzen der
+                            beim Wechseln der Bremse oder dem ersetzen der
                             Bremsflüssigkeit vertrauen wir wie bei Bremsscheiben
                             und Bremsbelägen auf Ersatzteile in
                             Erstausrüsterqualität führender Markenhersteller.

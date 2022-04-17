@@ -48,8 +48,8 @@ function Batterie() {
                             Schätzung, die von Modell zu Modell abweichen kann.
                             Mehrere Monate wird die Batterie eines parkenden
                             (modernen) Autos aber nur noch selten durchhalten.
-                            Wir von Automobile Jahn beraten Sie gerne weiter,
-                            wenn es um die Leistung und Pflege Ihrer
+                            Wir von Autowerkstatt Waisi beraten Sie gerne
+                            weiter, wenn es um die Leistung und Pflege Ihrer
                             Autobatterie geht – und wenn sie doch mal entladen
                             sein sollte, sind wir für Sie da.
                         </Typography>

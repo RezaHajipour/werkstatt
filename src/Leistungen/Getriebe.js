@@ -24,7 +24,7 @@ function Getriebe() {
                             Getriebe
                         </Typography>
                         <Typography>
-                            Bei einer Getriebe Instandsetzung wird das komplette
+                            Bei einer Getriebeinstandsetzung wird das komplette
                             Getriebe zerlegt, untersucht, geprüft und gereinigt.
                             Alle defekten sowie verschlissenen Einzelteile
                             werden ersetzt oder erneuert. Anschließend wird das

@@ -36,13 +36,13 @@ function Auspuff() {
                             drei Schalldämpfern. Bei jeder Fahrt werden diese
                             thermisch extrem beansprucht. Starke
                             Temperaturschwankungen durch heiße Abgase und
-                            Außentemperaturen, aber auch Streusalz und Nässe,
-                            setzen der Auspuff- anlage zu. So ist es kein
-                            Wunder, dass sich relativ schnell Löcher bilden,
-                            Teile lösen oder sie gar durchrostet. Der letzte
-                            Schalldämpfer – Endschalldämpfer genannt – ist am
-                            häufigsten kaputt: Bei etwa 90% aller Schäden am
-                            Auspuff ist er es, der ausgetauscht werden muss.
+                            Außentemperaturen, aber auch Streusalz und Nässe
+                            setzen der Auspuffanlage zu. So ist es kein Wunder,
+                            dass sich relativ schnell Löcher bilden, Teile lösen
+                            oder sie gar durchrostet. Der letzte Schalldämpfer –
+                            Endschalldämpfer genannt – ist am häufigsten kaputt:
+                            Bei etwa 90% aller Schäden am Auspuff ist er es, der
+                            ausgetauscht werden muss.
                         </Typography>
                     </CardContent>
                 </Card>
