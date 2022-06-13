@@ -76,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "flex-start",
-        height: "50vh",
+        height: "47vh",
         [theme.breakpoints.down("xs")]: { height: "100%" },
     },
 

@@ -24,11 +24,11 @@ function Reifen() {
                             Räder & Reifen
                         </Typography>
                         <Typography>
-                            In unserer KFZ Werkstatt können Sie neben der
+                            In unserer KFZ Meisterwerkstatt können Sie neben der
                             Montage von Rädern auch noch andere Dienstleistungen
                             im Bereich Räder & Reifen in Anspruch nehmen. Zum
-                            Beispiel werden Ihre Räder bei uns stationär
-                            gewuchtet. Wir nehmen die Messung vor und sorgen
+                            Beispiel können wir Ihre Räder bei uns stationär
+                            gewuchten. Wir nehmen die Messung vor und sorgen
                             dafür, dass Ihre Räder keine Unwucht aufweisen.
                             Durch das Auswuchten werden die Reifen wieder
                             problemlos laufen. Das heißt, die Abnutzung wird

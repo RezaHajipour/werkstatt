@@ -25,16 +25,16 @@ function Karosserie() {
                         </Typography>
                         <Typography>
                             Durch den Einsatz hochwertiger
-                            Karosserie-Richtbanksysteme wird bei komplizierten
-                            Unfallschäden eine exakte Mess- und Pass-
-                            genauigkeit der Karosserie und deren Anbauteilen
-                            erreicht. Hier wird eine Verbindung geschaffen
-                            zwischen millimetergenauen Richtens der Karosserie
-                            und einer elektronischen Computer-Achsvermessung.
-                            Somit wird eine exakte Unfall-Instandsetzung
-                            ermöglicht. Bilder rechts: Bei den Schweißarbeiten
-                            wird mit modernster Technik punktgenau auch bei
-                            hochfesten Stählen Maßarbeit geleistet.
+                            Karosserierichtbanksysteme wird bei komplizierten
+                            Unfallschäden eine exakte Mess- und Passgenauigkeit
+                            der Karosserie und deren Anbauteilen erreicht. Hier
+                            wird eine Verbindung geschaffen zwischen Millimeter
+                            genauen richten der Karosserie und einer
+                            elektronischen Computerachsvermessung. <br />
+                            Somit wird eine exakte Unfallinstandsetzung
+                            ermöglicht. Bei den Schweißarbeiten wird mit
+                            modernster Technik punktgenau auch bei hochfesten
+                            Stählen Maßarbeit geleistet.
                         </Typography>
                     </CardContent>
                 </Card>

@@ -6,7 +6,7 @@ import CopyWrite from "./CopyWrite";
 import Home from "./Home";
 import Uber from "./Uber";
 import Kontakt from "./Kontakt";
-import Auspuff from "./Leistungen/Auspuff";
+import Abgasanlage from "./Leistungen/Abgasanlage";
 import Klimaanlagen from "./Leistungen/Klimaanlagen";
 import Batterie from "./Leistungen/Batterie";
 import Bremse from "./Leistungen/Bremse";
@@ -22,6 +22,7 @@ import Ol from "./Leistungen/Ol";
 import Reifen from "./Leistungen/Reifen";
 import Stossdampfer from "./Leistungen/Stossdampfer";
 import Zundung from "./Leistungen/Zundung";
+import Impressum from "./Leistungen/Impressum";
 
 const App = () => {
     return (
@@ -37,8 +38,8 @@ const App = () => {
                 <Route path="/kontakt">
                     <Kontakt />
                 </Route>
-                <Route path="/auspuff">
-                    <Auspuff />
+                <Route path="/abgasanlage">
+                    <Abgasanlage />
                 </Route>
                 <Route path="/klimaanlagen">
                     <Klimaanlagen />
@@ -84,6 +85,9 @@ const App = () => {
                 </Route>
                 <Route path="/zundung">
                     <Zundung />
+                </Route>
+                <Route path="/impressum">
+                    <Impressum />
                 </Route>
                 <Footer />
                 <CopyWrite />

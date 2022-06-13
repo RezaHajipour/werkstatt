@@ -24,34 +24,39 @@ function Batterie() {
                             Batterie
                         </Typography>
                         <Typography>
-                            Es gibt Zeiten, da muss das Auto einfach stehen
-                            bleiben.Doch wie lange hält die Batterie, wenn das
-                            Auto steht, bis sie sich entlädt? Jeder Autofahrer
-                            weiß: Wenn der Wagen zu lange nicht mehr bewegt
-                            wird, kann sich die Batterie entladen. Dann springt
-                            das Auto nicht mehr an und die Kfz-Werkstatt muss
-                            eingreifen. Viele fragen sich zurecht, wie lange sie
-                            denn nun ihr Auto parken können, ohne dass sich die
-                            Batterie entlädt. Während es vor vielen Jahren noch
-                            gut möglich war, sein Auto mehrere Monate stehen zu
-                            lassen, ohne dann einen Fehlstart zu riskieren, ist
-                            das heute bei modernen Autos dank reichlich
-                            Bordelektronik und Steuergeräten nicht mehr möglich.
-                            Wenn das Auto geparkt und abgeschlossen ist, laufen
-                            bei modernen Autos trotzdem noch viele Verbraucher
-                            weiter. Schließlich muss die Alarmanlage durchgehend
+                            Wenn die Batterie zu schwach ist springt das
+                            Fahrzeug nicht an. Wie lange hält die Batterie, wenn
+                            das Fahrzeug steht, bis sie sich komplett entlädt?
+                            Jeder Autofahrer weiß, wenn der Pkw zu lange nicht
+                            mehr bewegt wird, kann sich die batterie entladen.
+                            <br />
+                            Dann springt das Fahrzeug nicht mehr an und muss in
+                            die Kfz-Werkstatt. Viele fragen sich zurecht, wie
+                            lange sie denn nun ihr Pkw parken können, ohne dass
+                            sich die Batterie entlädt. Während es vor vielen
+                            Jahren noch gut möglich war, sein Fahrzeug mehrere
+                            Monate stehen zu lassen, ohne dann einen Fehlstart
+                            zu riskieren, ist das heute bei modernen Fahrzeugen
+                            dank reichlich Bordelektronik und Steuergeräten
+                            nicht mehr möglich. Wenn der Pkw geparkt und
+                            abgeschlossen ist, schalten sich bei modernen
+                            Fahrzeugen trotzdem noch viele Verbraucher nicht
+                            komplett ab.
+                            <br /> Schließlich muss die Alarmanlage durchgehend
                             funktionieren und die Zentralverriegelung immer auf
                             ein Signal von der Fernbedienung am Autoschlüssel
-                            warten. So muss ein Autofahrer damit rechnen, dass
-                            die Batterie seines stehenden Autos schon nach drei
-                            bis vier Wochen leer ist. Dies ist natürlich eine
+                            warten. <br />
+                            So muss ein Autofahrer damit rechnen, dass die
+                            Kapazität der Batterie seines stehenden Pkw's schon
+                            nach 3-4 Wochen nicht mehr ausreichend ist für den
+                            Startvorgang seines Pkw's. Dies ist natürlich eine
                             Schätzung, die von Modell zu Modell abweichen kann.
                             Mehrere Monate wird die Batterie eines parkenden
-                            (modernen) Autos aber nur noch selten durchhalten.
-                            Wir von Autowerkstatt Waisi beraten Sie gerne
-                            weiter, wenn es um die Leistung und Pflege Ihrer
-                            Autobatterie geht – und wenn sie doch mal entladen
-                            sein sollte, sind wir für Sie da.
+                            modernen Fahrzeuges aber nur noch selten
+                            durchhalten. Wir von der Autowerkstatt Waisi beraten
+                            Sie gerne weiter, wenn es um die Leistung und Pflege
+                            Ihrer Autobatterie geht – und wenn sie doch mal
+                            entladen sein sollte, sind wir für Sie da.
                         </Typography>
                     </CardContent>
                 </Card>

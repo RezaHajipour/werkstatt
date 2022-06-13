@@ -23,17 +23,19 @@ function Uber() {
                         ÜBER UNS
                     </Typography>
                     <Typography>
-                        Unsere Werkstatt ist Fachgerecht ausgestattet, so dass
-                        alle Reparaturen und Dienstleistungen schnell und zur
-                        Kundenzufriedenheit geleistet werden können. So können
-                        aufgrund drei Hebebühnen mehrere Reparaturen
-                        gleichzeitig von unserem Team verrichtet werden ohne das
-                        lange Wartezeiten aufkommen. Auch die Reperaturen von
-                        Lastwagen stellen aufgrund einer Arbeitsgrube kein
-                        Problem für uns dar. Des Weiteren ist unsere Werkstatt
-                        mit einem Klimaanlagen-Service ausgestattet und wir
-                        führen außerdem Computergesteuerte Diagnosetests durch,
-                        um innerhalb kürzester Zeit die Fehler an Ihrem Wagen
+                        Unsere Kfz.-Meisterwerkstatt ist Fachgerecht
+                        ausgestattet, so dass alle Reperaturen und
+                        Dienstleistungen schnell und mit hoher
+                        Kundenzufriedenheit geleistet werden können.
+                        <br />
+                        So können wir aufgrund unser drei Hebebühnen mehrere
+                        Reperaturen gleichzeitig von unserem Team verrichtet
+                        werden ohne das lange Wartezeiten aufkommen.
+                        <br />
+                        Desweiteren ist unsere Meisterwerkstatt mit einem
+                        Klimaanlagen-Servicegerät ausgestattet und wir führen
+                        außerdem Computergesteuerte Diagnosetests durch, um
+                        innerhalb kürzester Zeit die Fehler an Ihrem Fahrzeug
                         ausfindig machen zu können.
                     </Typography>
                 </CardContent>

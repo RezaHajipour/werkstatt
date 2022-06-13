@@ -24,15 +24,18 @@ function Getriebe() {
                             Getriebe
                         </Typography>
                         <Typography>
-                            Bei einer Getriebeinstandsetzung wird das komplette
-                            Getriebe zerlegt, untersucht, geprüft und gereinigt.
-                            Alle defekten sowie verschlissenen Einzelteile
-                            werden ersetzt oder erneuert. Anschließend wird das
-                            Getriebe unter Berücksichtigung kleiner eventuell
-                            auftretender, technischen Änderungen, wieder
-                            zusammengebaut. Nach Wiedereinbau wird das Getriebe
-                            und alle relevanten Komponenten auf Ihre Funktion
-                            geprüft.
+                            Bei einer Getriebe Instandsetzung wird das komplette
+                            Getriebe zerlegt.
+                            <br />
+                            Wir von der Autowerkstatt Hammerbrook können das
+                            komplette Getriebe prüfen, reinigen, zerlegen und
+                            nur einzelne defekte oder verschlissene Zahnräder
+                            sowie Schaltwellen bzw. Schaltventile tauschen.
+                            Anschließend wird das Getriebe unter
+                            Berücksichtigung kleiner eventuell auftretender,
+                            technischen Änderungen, wieder zusammengebaut. Nach
+                            Wiedereinbau wird das Getriebe und alle relevanten
+                            Komponenten auf Ihre volle Funktion geprüft.
                         </Typography>
                     </CardContent>
                 </Card>

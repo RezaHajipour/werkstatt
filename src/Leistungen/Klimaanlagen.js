@@ -21,34 +21,41 @@ function Klimaanlagen() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Klimaanlagen
+                            Klimaanlage
                         </Typography>
                         <Typography>
-                            Bei uns können Sie eine professionelle Kontrolle der
-                            Klimaanlage in Ihrem Auto durchführen lassen.
-                            Außerdem werden wir die notwendigen Servicearbeiten
-                            erledigen, damit wieder alles ordnungsgemäß
-                            funktioniert. Eine Klimaanlage ist sowohl im Sommer
-                            wie auch im Winter angenehm zu verwenden. In der
-                            heißen Jahreszeit sorgt sie für kalte Luft. In der
+                            Eine Klimaanlage ist sowohl im Sommer wie auch im
+                            Winter angenehm zu verwenden. In der heißen
+                            Jahreszeit sorgt sie für kalte Luft und in der
                             kalten Jahreszeit übernimmt sie die Trocknung der
                             Luft, damit die Scheiben nicht beschlagen.
-                            <br /> Wir überprüfen Ihre Klimaanlage auf die
+                            <br />
+                            Bei uns können Sie eine professionelle Kontrolle der
+                            Klimaanlage in Ihrem Fahrzeug durchführen lassen.
+                            Außerdem werden wir die notwendigen Servicearbeiten
+                            erledigen, damit wieder alles ordnungsgemäß
+                            funktioniert.
+                            <br />
+                            Wir überprüfen Ihre Klimaanlage auf die
                             Funktionstüchtigkeit. Außerdem führen wir eine
                             Wartung durch, die regelmäßig für jede Klimaanlage
-                            empfohlen wird. Bei einer defekten Auto Klimaanlage
-                            können wir dieses Problem ebenfalls beheben. Wir
-                            nehmen nämlich jegliche Reparaturen vor, damit Sie
-                            wieder trockene und kühle Luft im Auto haben. <br />
-                            In unserer KFZ-Werkstatt wird die Klimaanlage in
-                            Ihrem Auto auf Dichtheit überprüft. Dabei führen wir
-                            eine Dichtheitsprüfung mit Formiergas durch. Bei
-                            ständigem Betrieb der Anlage sammeln sich über die
-                            Zeit viele Viren an. Deshalb werden wir eine
-                            Desinfektion des Verdampfers vornehmen. Außerdem
-                            können Sie bei uns Ihre Klimaanlage mit Kältemittel
-                            befüllen lassen. Dabei wird bei uns das Kältemittel
-                            R134a sowie 1234yf eingesetzt.
+                            empfohlen wird. Bei einer defekten Klimaanlage in
+                            Ihrem Fahrzeug können wir dieses Problem ebenfalls
+                            beheben.
+                            <br />
+                            Wir nehmen nämlich jegliche Reparaturen vor, damit
+                            Sie wieder kühle und trockene Luft in Ihrem Fahrzeug
+                            haben.
+                            <br />
+                            In unserer KFZ-Meisterwerkstatt wird die Klimaanlage
+                            in Ihrem Auto auf Dichtheit mit Formiergas
+                            überprüft. Bei ständigem Betrieb der Anlage sammeln
+                            sich über die Zeit viele Viren an. Deshalb werden
+                            wir eine Desinfektion des Verdampfers vornehmen.
+                            <br />
+                            Außerdem können Sie bei uns Ihre Klimaanlage, mit
+                            dem Kältemittel R134a oder mit dem Kältemittel
+                            1234yf je nach Fahrzeugtyp, befüllen lassen.
                         </Typography>
                     </CardContent>
                 </Card>

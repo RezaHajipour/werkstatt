@@ -24,14 +24,17 @@ function Diagnose() {
                             Diagnose
                         </Typography>
                         <Typography>
-                            Wenn ein Lämpchen im Cockpit Ihres Autos
+                            Wenn die Kontrollampe im Display Ihres Fahrzeuges
                             aufleuchtet, ist es Zeit für eine Fehlerdiagnose.
-                            Dafür lesen wir den Fehlerspeicher Ihres Autos aus
-                            und können so schnell und einfach feststellen, wo
-                            der Schuh drückt. Die Fehlerdiagnose erlaubt es uns,
-                            mögliche Defekte frühzeitig zu erkennen. So können
-                            wir Reparaturen an Ihrem Auto vornehmen, bevor es zu
-                            größeren Schäden, Ausfällen oder gar Unfällen kommt.
+                            Dafür lesen wir den Fehlerspeicher Ihres Fahrzeuges
+                            aus und können so schnell und einfach feststellen,
+                            wo es in der Elektronik Ihres Fahrzeug klemmt. Die
+                            Fehlerdiagnose erlaubt es uns, mögliche Defekte
+                            frühzeitig zu erkennen.
+                            <br />
+                            So können wir Reparaturen an Ihrem Fahrzeug
+                            vornehmen, bevor es zu größeren Schäden, Ausfällen
+                            oder gar Unfällen kommt.
                             <br />
                             Die Technik und Elektronik moderner Fahrzeuge wird
                             immer komplexer. Wir verfügen über neueste

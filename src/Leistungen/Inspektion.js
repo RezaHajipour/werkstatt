@@ -27,45 +27,48 @@ function Inspektion() {
                             Um Ihnen in Ihrem Fahrzeug den bestmöglichen
                             Standard an Sicherheit und Zuverlässigkeit
                             gewährleisten zu können, bieten wir Ihnen umfassende
-                            Inspektions-Leistungen an. Diese beinhalten alle
-                            Verschleiß-Quellen. Des Weiteren bieten wir Ihnen
-                            eine Anzahl von praktischen und zusätzlichen
-                            spezifischen Komfort- und Sicherheitsleistungen:
+                            Inspektionsleistungen an. Diese beinhaltet z.B. die
+                            Prüfung alle Verschleißteile.
+                            <br />
+                            Des Weiteren bieten wir Ihnen eine Anzahl von
+                            praktischen und zusätzlichen spezifischen Komfort-
+                            und Sicherheitsleistungen:
                         </Typography>
                         <Typography variant="h6" component="h4">
                             <strong>. Antrieb</strong>
                         </Typography>
                         <Typography>
-                            Antriebswellen und -gelenke, Lagertechnik
+                            Check der Antriebswellen und Gelenke, Radlager.
                         </Typography>
                         <Typography variant="h6" component="h4">
                             <strong>. Bremsen</strong>
                         </Typography>
                         <Typography>
-                            Verschleißkontrolle, Dichtheitsüberprüfung,
-                            Bremsenprüfstand.
+                            Verschleißkontrolle, Dichtheitsüberprüfung, Prüfung
+                            der Bremswirkung.
                         </Typography>
                         <Typography variant="h6" component="h4">
                             <strong>. Elektrik</strong>
                         </Typography>
                         <Typography>
-                            Lichtmaschinen-Leistungstest, Anlasserstromaufnahme,
-                            Batteriekontrolle, Lichtanlage.
+                            Lichtmaschinenleistungstest, ggf. prüfen
+                            Anlasserstromaufnahme, Batteriekontrolle,
+                            Funktionstest der Beleuchtung.
                         </Typography>
 
                         <Typography variant="h6" component="h4">
                             <strong>. Fahrwerk</strong>
                         </Typography>
                         <Typography>
-                            Rad- und Reifenkontrolle, Stoßdämpfer und Federung,
-                            Achsgeometrie.
+                            Rad und Reifenkontrolle, Prüfung der Stoßdämpfer und
+                            Federn, Sichtprüfung der Achsgeometrie.
                         </Typography>
                         <Typography variant="h6" component="h4">
                             <strong>. Motor</strong>
                         </Typography>
                         <Typography>
-                            Öl- und Flüßigkeitskontrolle, Kühlung, On Board
-                            Diagnose, Auspuffanlage und Abgasanalyse.
+                            Öl und Flüßigkeitskontrolle, Kühlung, Fehlerspeicher
+                            auslesen, Abgasanlage prüfen und Abgasanalyse.
                         </Typography>
                     </CardContent>
                 </Card>

@@ -24,14 +24,17 @@ function Kupplung() {
                             Kupplung
                         </Typography>
                         <Typography>
-                            Die Kupplung ist ein Verschleißteil. In der Regel
-                            macht sie sich erst nach mehreren Jahren bemerkbar.
-                            Damit es dazu gar nicht erst kommt, wird die
-                            Kupplung von unserem Service-Team auf Wunsch
-                            kontrolliert. Wenn sie bereits defekt ist,
-                            reparieren wir den Schaden oder tauschen die
-                            Kupplung aus. Selbstverständlich bauen wir nur
-                            Ersatzteile in Erstausrüsterqualität ein.
+                            Die Kupplung ist das Verbindungsteil zwischen Motor
+                            und Getriebe und ist ein Verschleißteil und hält in
+                            der Regel mehrere Jahre.
+                            <br /> Wann die Kupplung verschlissen ist kann unser
+                            Service-Team von der Kfz-Meisterwerkstatt
+                            Hammerbrook nach einer Kontrolle an Ihrem Fahrzeug
+                            gut abschätzen.
+                            <br /> Wenn sie bereits defekt ist, reparieren wir
+                            den Schaden oder tauschen die Kupplung aus.
+                            Selbstverständlich bauen wir nur Ersatzteile in
+                            Erstausrüsterqualität ein.
                         </Typography>
                     </CardContent>
                 </Card>

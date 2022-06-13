@@ -24,14 +24,16 @@ function Bremse() {
                             Bremse
                         </Typography>
                         <Typography>
-                            Eine gut funktionierende Bremsanlage ist für die
+                            Eine richtig funktionierende Bremsanlage ist für die
                             Sicherheit von höchster Wichtigkeit! Damit Sie sich
                             in allen Situationen auf Ihre Bremse verlassen
-                            können, prüfen wir die komplette Bremsanlage. Auch
-                            beim Wechseln der Bremse oder dem ersetzen der
-                            Bremsflüssigkeit vertrauen wir wie bei Bremsscheiben
-                            und Bremsbelägen auf Ersatzteile in
-                            Erstausrüsterqualität führender Markenhersteller.
+                            können, prüfen wir von der Autowerkstatt Hammerbrook
+                            die komplette Bremsanlage für Sie.
+                            <br />
+                            Auch beim wechseln der Bremse oder dem ersetzen der
+                            Bremsflüssigkeit Vertrauen wir bei den Ersatzteilen
+                            auf Erstausrüsterqualität führender
+                            Markenhersteller.
                             <br />
                             <br />
                             <strong>
@@ -40,10 +42,11 @@ function Bremse() {
                             </strong>
                             <br />
                             <br />• Prüfung des Bremssystems inkl. der
-                            Bremsschläuche <br />• nach Bedarf fachgerechter
-                            Austausch von Komponenten (Bremsscheiben,
-                            Bremsbeläge und Warnkontakt) <br />• Reinigung der
-                            Bremsen <br />• Kontrolle der Bremswirkung
+                            Bremsschläuche <br />
+                            • nach Bedarf fachgerechter Austausch von
+                            Komponenten (Bremsscheiben, Bremsbeläge und
+                            Warnkontakt) <br />• Reinigung der Bremsen <br />•
+                            Kontrolle der Bremswirkung
                         </Typography>
                     </CardContent>
                 </Card>

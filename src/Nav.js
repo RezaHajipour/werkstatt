@@ -250,9 +250,9 @@ const Nav = () => {
                                     <MenuItem
                                         onClick={handleClose}
                                         component={RouterLink}
-                                        to="/auspuff"
+                                        to="/abgasanlage"
                                     >
-                                        Auspuff
+                                        Abgasanlage
                                     </MenuItem>
 
                                     <MenuItem
@@ -418,7 +418,7 @@ const useStyles = makeStyles((theme) => ({
     toolbar: {
         display: "flex",
         justifyContent: "space-between",
-        width: "100%",
+        // width: "100%",
     },
     desktopContainer: {
         display: "flex",

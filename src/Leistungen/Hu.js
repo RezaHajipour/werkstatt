@@ -20,42 +20,52 @@ function Hu() {
 
                 <Card className={classes.card2}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h4">
-                            HU
+                        <Typography variant="h5">
+                            Die Hauptuntersuchung(HU)
                         </Typography>
                         <Typography>
-                            Die gesetzlich vorgeschriebenen Untersuchungen
-                            werden in Zusammenarbeit mit einer anerkannten
-                            Prüforganisation durchgeführt.Die Hauptuntersuchung
+                            Die gesetzlich vorgeschriebene Hauptuntersuchung
+                            wird in Zusammenarbeit mit einer anerkannten
+                            Prüforganisation durchgeführt. Die Hauptuntersuchung
                             soll vermeiden, dass Fahrzeuge mit
                             Sicherheitsmängeln am Straßenverkehr teilnehmen.
+                            <br />
                             Deshalb führen amtlich anerkannte Prüforganisationen
-                            diese Untersuchung in regelmäßigen Abständen an
-                            allen Fahrzeugen mit eigenem amtlichen Kennzeichen
-                            durch. Besteht ein Fahrzeug diese Überprüfung, wird
-                            dies durch eine runde Prüfplakette am hinteren
-                            amtlichen Kennzeichen nachgewiesen, die das Jahr und
-                            den Monat anzeigt, in dem das Fahrzeug wieder zur HU
-                            gebracht werden muss. Melden Sie Ihr Fahrzeug an,
-                            den Rest erledigen wir.
+                            diese Hauptuntersuchung regelmäßigen aller 2 Jahre
+                            an Ihrem Fahrzeugen durch.
+                            <br />
+                            Besteht ein Fahrzeug diese Überprüfung, wird dies
+                            durch einen Prüfbericht und runde Prüfplakette am
+                            hinteren amtlichen Kennzeichen nachgewiesen, die das
+                            Jahr und den Monat anzeigt, in dem das Fahrzeug
+                            wieder zur Hauptuntersuchung vorgeführt werden muss.
+                            <br />
+                            Melden Sie Ihr Fahrzeug an, den Rest erledigen wir
+                            für Sie.
                         </Typography>
-                        <Typography gutterBottom variant="h4" component="h4">
-                            AU
+                        <br />
+                        <Typography variant="h5">
+                            Die Abgasuntersuchung(AU)
                         </Typography>
                         <Typography>
-                            Mit der Integration der Untersuchung der Abgase (AU)
-                            in die Hauptuntersuchung (HU) entfällt die bisherige
+                            Mit der Integration der Abgasuntersuchung (AU) in
+                            die Hauptuntersuchung (HU) entfällt die bisherige
                             AU-Plakette am vorderen amtlichen Kennzeichen des
-                            Kraftfahrzeugs. Der Nachweis der HU inkl. der AU
-                            erfolgt nur noch über den HU-Prüfbericht und die
-                            HU-Plakette auf dem hinteren Kennzeichen. Für alle
-                            Kraftfahrzeuge kann die AU als Teiluntersuchung zur
-                            HU von der Autostation als anerkannte AU Werkstatt
+                            Kraftfahrzeugs.
+                            <br />
+                            Der Nachweis der HU inkl. der AU erfolgt nur noch
+                            über den HU-Prüfbericht, dem AU-Prüfbericht und der
+                            runden HU-Plakette auf dem hinteren Kennzeichen. Für
+                            alle Kraftfahrzeuge kann die AU auch als
+                            Teiluntersuchung zur HU von der
+                            Kfz.-Meisterwerkstatt als anerkannte AU Werkstatt
                             durchgeführt und anhand eines AU-Nachweises mit
                             fälschungserschwerenden Merkmalen bescheinigt
-                            werden. Die Autostation kann gegenüber dem
-                            Autofahrer immer belegen, wie wir entsprechend den
-                            Herstellervorgaben die AU durchgeführt haben.
+                            werden.
+                            <br />
+                            Die Kfz.-Meisterwerkstatt kann gegenüber dem
+                            Autofahrer immer belegen, wie entsprechend der
+                            Herstellervorgaben die AU durchgeführt wird.
                         </Typography>
                     </CardContent>
                 </Card>

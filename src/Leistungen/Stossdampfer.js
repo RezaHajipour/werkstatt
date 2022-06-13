@@ -26,17 +26,18 @@ function Stossdampfer() {
                         <Typography>
                             Es gibt so manche Autoteile, bei denen vergisst man
                             mit der Zeit einfach, dass sie existieren. Die
-                            Stoßdämpfer könnte man als so ein Autoteil
-                            bezeichnen. Dass sie sehr wichtige Komponenten eines
+                            Stoßdämpfer könnte man als solches Autoteil
+                            bezeichnen. Das sie sehr wichtige Komponenten eines
                             jeden Autos sind, ohne die eine Fahrt unmöglich
                             wäre, wissen die meisten gar nicht. Erst wenn ein
-                            Defekt vorliegt und das Auto nicht mehr das macht,
-                            was es sollte, erinnert man sich wieder an die
-                            Existenz von Stoßdämpfern. Dann helfen wir Ihnen
-                            gerne weiter. <br />
+                            Defekt vorliegt und das Fahrzeug nicht mehr das
+                            macht, was es sollte, erinnert man sich wieder an
+                            die Existenz von Stoßdämpfern. Dann helfen wir Ihnen
+                            gerne weiter.
+                            <br />
                             Defekte Stoßdämpfer sind ein Sicherheitsrisiko,
-                            deshalb sollten diese alle 20.000 Kilometer geprüft
-                            werden. Gerne überprüfen wir die Stoßdämpfer auf
+                            deshalb sollten diese alle 20.000 km geprüft werden.
+                            Gerne überprüfen wir die Stoßdämpfer auf
                             Funktionsfähigkeit und ersetzen, wenn notwendig,
                             defekte Teile mit Ersatzteilen in
                             Erstausrüsterqualität führender Markenhersteller.

@@ -21,20 +21,21 @@ function Motor() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Motor
+                            Der Motor
                         </Typography>
                         <Typography>
                             Im Gegensatz zu vielen anderen Bestandteilen, kann
-                            die intensive Nutzung des Fahrzeugs vor allem zur
-                            Verkürzung der Motor-Lebensdauer führen. Doch nicht
-                            immer muss es den kompletten Ersatz des Motors
-                            bedeuten. Oft ist eine Überholung die
-                            wirtschaftlichere Lösung. Unter Einhaltung von
-                            gewissen Leistungsstandards die vom Hersteller
-                            angegeben werden, ist es möglich durch eine
-                            Generalüberholung oder eine Instandsetzung, die
-                            ursprüngliche Motorenleistung, gemäß
-                            Bauartzulassung, wieder zu gewährleisten.
+                            die intensive Nutzung Ihres Kfz vor allem zur
+                            Verkürzung der Motor-Lebensdauer führen.
+                            <br /> Doch nicht immer muss es den kompletten
+                            Ersatz des Motors bedeuten. Oft ist eine Überholung
+                            die wirtschaftlichere Lösung.
+                            <br />
+                            Unter Einhaltung von gewissen Leistungsstandards die
+                            vom Hersteller angegeben werden, ist es uns möglich
+                            durch eine Generalüberholung oder eine
+                            Instandsetzung, die ursprüngliche Motorenleistung,
+                            gemäß der Bauartzulassung wieder zu gewährleisten.
                         </Typography>
                     </CardContent>
                 </Card>

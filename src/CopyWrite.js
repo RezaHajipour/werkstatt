@@ -1,37 +1,57 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Box from "@material-ui/core/Box";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-        justifyContent: "between",
-        flexDirection: "column",
-        width: "100%",
-        height: "5%",
-    },
-
-    title: {
-        flexGrow: 1,
-        color: "#FFFFFF",
-        maxHeight: "0.07rem",
-    },
-}));
+// import { Link } from "@mui/material";
+import { makeStyles, Grid, Card, CardContent, Link } from "@material-ui/core";
 
 export default function CopyWrite() {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" style={{ background: "#221f1f" }}>
-                <Toolbar>
-                    <Box variant="h6" className={classes.title}>
-                        Design by @ REZA HAJIPOUR
-                    </Box>
-                </Toolbar>
-            </AppBar>
+            <Grid container className={classes.root}>
+                <Card className={classes.card}>
+                    <CardContent>
+                        {" "}
+                        Design by @{" "}
+                        <Link
+                            href="www.rezahajipour.com"
+                            underline="none"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            REZA HAJIPOUR
+                        </Link>
+                    </CardContent>{" "}
+                </Card>
+                <Card className={classes.card}>
+                    <CardContent>
+                        {" "}
+                        <Link href="/impressum" underline="none">
+                            IMPRESSUM
+                        </Link>
+                    </CardContent>{" "}
+                </Card>
+            </Grid>
         </div>
     );
 }
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        justifyContent: "space-around",
+        alignItems: "flex-start",
+        textAlign: "center",
+        flexBasis: "0%",
+        backgroundColor: "#221f1f",
+        boxShadow: "0",
+    },
+
+    card: {
+        maxWidth: 400,
+        maxHeight: 300,
+        backgroundColor: "#221f1f",
+        boxShadow: "none",
+        color: "#FFFFFF",
+    },
+}));

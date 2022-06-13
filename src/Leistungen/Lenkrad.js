@@ -21,23 +21,25 @@ function Lenkrad() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography variant="h5" component="h4">
-                            Lenkrad/Achsvermessung
+                            Lenkrad / Achsvermessung
                         </Typography>
                         <Typography>
-                            Ihr Auto verhält sich ungewohnt in den Kurven? Die
-                            Lenkung hat Spiel oder hält die Spur nicht mehr?
+                            Ihr Fahrzeug verhält sich ungewohnt in den Kurven?
+                            Die Lenkung hat Spiel oder hält die Spur nicht mehr?
                             <br />
-                            Entscheident für das Fahrverhalten und die
-                            Fahreigenschaften Ihres Wagens sind die Korrekt
+                            Entscheidend für das Fahrverhalten und die
+                            Fahreigenschaften Ihres Kfz sind die korrekt
                             eingestellte Spur der Sturz und Nachlaufwerte. Mit
-                            unserem Mess und Einstellverfahren können wir bei
+                            unserem Mess.-und Einstellverfahren können wir bei
                             der Vermessung nicht nur die Werte prüfen und
                             einstellen, sondern auch die gesamte Achsgeometrie
-                            des Autos durchchecken und Abweichungen feststellen.
-                            Dies gilt sowohl für die Vermessung der Vorder-
-                            sowie für die Hinterachse. Die Achsvermessung bei
-                            uns beinhaltet: Sichtprüfung der Felden und Reifen.
-                            Vermessung aller Räder Ein Protokoll
+                            des Fahrzeuges kontrollieren und Abweichungen
+                            feststellen. Dies gilt sowohl für die Vermessung der
+                            Vorder-sowie für die Hinterachse. Die Achsvermessung
+                            bei uns beinhaltet:
+                            <br />* Sichtprüfung der Felgen
+                            <br />* Vermessung aller Räder
+                            <br />* ein Protokoll
                         </Typography>
                     </CardContent>
                 </Card>

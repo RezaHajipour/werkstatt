@@ -21,7 +21,7 @@ function Ol() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Öl-Service
+                            Ölwechsel
                         </Typography>
                         <Typography>
                             Regelmäßiger Ölwechsel sorgt für ein langes
@@ -30,19 +30,22 @@ function Ol() {
                             Erstausrüsterqualität.
                             <br />
                             <br />
-                            <strong>Unsere Aufgaben beim Ölwechsel ?</strong>
+                            <strong>
+                                Unsere Aufgaben beim Ölwechsel an Ihrem
+                                Fahrzeug:
+                            </strong>
                             <br />
                             • Unterfahrschutz abbauen <br />
                             • Altöl ablassen <br />
                             • Altöl entsorgen <br />
-                            • Alte Ölfiler ausbauen <br />
-                            • Neue Ölfilter einbauen <br />
-                            • Frisches Öl in den Motor füllen <br />
+                            • Alten Ölfiler ausbauen <br />
+                            • Neuen Ölfilter einbauen <br />
+                            • neues Motoröl in den Motor füllen <br />
                             • ggf Ölablasschrauben erneuern ink. Dichtung <br />
                             • Unterfahrschutz einbauen <br />
                             • Ölwechselintervallanzeige zurücksetzten <br />
-                            • Ölschild im Motorraum anbringen <br />• nochmals
-                            Ölstand überprüfen
+                            • Neuen Ölzettel im Motorraum anbringen <br />•
+                            nochmals Ölstand überprüfen
                         </Typography>
                     </CardContent>
                 </Card>

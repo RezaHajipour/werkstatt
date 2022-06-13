@@ -7,9 +7,9 @@ import {
     CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "../images/back-Zündung.jpeg";
+import image from "../images/back-Auspuff.jpeg";
 
-function Zundung() {
+function Abgasanlage() {
     const classes = useStyles();
     return (
         <section>
@@ -21,28 +21,35 @@ function Zundung() {
                 <Card className={classes.card2}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h4">
-                            Zündung
+                            Abgasanlage
                         </Typography>
                         <Typography>
-                            Das am Fahrzeug etwas nicht stimmt, erkennen auch
-                            die meisten Laien:
+                            Die Abgasanlage Ihres Fahrzeuges reduziert Lärm- und
+                            Umweltbelastung und schützt Sie vor giftigen
+                            Abgasen. Eine defekte Abgasanlage jedoch gefährdet
+                            Sie und andere.
                             <br />
-                            Wenn ein Zylinder aufgrund von Zündaussetzern
-                            sporadisch oder dauerhaft ausfällt, verringert sich
-                            nicht nur die Leistung des Fahrzeugs erheblich, auch
-                            im Motorlauf macht sich dies bemerkbar.
+                            Lassen Sie die Abgasanlage jetzt kostenlos bei uns
+                            prüfen!
                             <br />
-                            Dann ist vermutlich die Zündspule deines Fahrzeuges
-                            defekt. Denn ohne einen kräftigen Zündfunken kommen
-                            Benziner nicht voran, im Gegensatz zu den
-                            Dieselmotoren, bei denen eine Selbstzündung
-                            stattfindet. Grundsätzlich ist die Zündspule kein
-                            klassisches Verschleißteil, sondern hat als ein rein
-                            elektrisches Bauteil eine sehr lange Lebensdauer.
+                            Das sichtbare Endrohr am hinteren Teil Ihres Wagens
+                            ist nur das letzte Stück der Abgasanlage.
+                            Tatsächlich besteht dies aus vielen verschiedenen
+                            Bauteilen: <br />
+                            dem Abgaskrümmer, dem sogenannten Hosenrohr, dem
+                            Katalysator sowie bis zu 3 Schalldämpfern. Bei jeder
+                            Fahrt werden diese thermisch extrem beansprucht.
+                            Starke Temperaturschwankungen durch heiße Abgase und
+                            Außentemperaturen, aber auch Streusalz und Nässe,
+                            setzen der Abgasanlage zu. So ist es kein Wunder,
+                            dass sich relativ schnell Undichtigkeiten bilden,
+                            Teile lösen oder sie einfach durchrostet.
                             <br />
-                            So eine Zündspule hält gut und gerne 100.000 bis
-                            150.000 km durch.
+                            Der letzte Schalldämpfer – Endschalldämpfer genannt
+                            – ist am häufigsten kaputt.
                             <br />
+                            Bei etwa 90% aller Schäden an der Abgasanlage ist er
+                            es, der ausgetauscht werden muss.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -51,7 +58,7 @@ function Zundung() {
     );
 }
 
-export default Zundung;
+export default Abgasanlage;
 
 //----------------Material-ui----------------------
 
@@ -84,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         boxShadow: "none",
         [theme.breakpoints.down("xs")]: {
-            height: "80vh",
+            height: "100%",
             width: "100vw",
         },
     },
