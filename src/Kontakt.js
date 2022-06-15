@@ -68,7 +68,7 @@ function Kontakt() {
 
 export default Kontakt;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

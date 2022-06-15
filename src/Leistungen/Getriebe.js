@@ -46,7 +46,7 @@ function Getriebe() {
 
 export default Getriebe;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

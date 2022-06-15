@@ -45,7 +45,7 @@ function Kupplung() {
 
 export default Kupplung;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

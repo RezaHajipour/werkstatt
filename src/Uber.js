@@ -46,7 +46,7 @@ function Uber() {
 
 export default Uber;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

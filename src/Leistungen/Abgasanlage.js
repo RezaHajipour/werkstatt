@@ -60,7 +60,7 @@ function Abgasanlage() {
 
 export default Abgasanlage;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

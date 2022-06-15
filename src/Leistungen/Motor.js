@@ -46,7 +46,7 @@ function Motor() {
 
 export default Motor;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

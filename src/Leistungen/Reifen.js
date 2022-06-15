@@ -49,7 +49,7 @@ function Reifen() {
 
 export default Reifen;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

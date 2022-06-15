@@ -1,6 +1,4 @@
 import React from "react";
-
-// import { Link } from "@mui/material";
 import { makeStyles, Grid, Card, CardContent, Link } from "@material-ui/core";
 
 export default function CopyWrite() {
@@ -13,20 +11,20 @@ export default function CopyWrite() {
                     <CardContent>
                         {" "}
                         Design by @{" "}
-                        <Link
-                            href="www.rezahajipour.com"
-                            underline="none"
+                        <a
+                            href="https://www.rezahajipour.com/"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
+                            className={classes.copywrite}
                         >
                             REZA HAJIPOUR
-                        </Link>
+                        </a>
                     </CardContent>{" "}
                 </Card>
                 <Card className={classes.card}>
                     <CardContent>
                         {" "}
-                        <Link href="/impressum" underline="none">
+                        <Link href="/impressum" className={classes.copywrite}>
                             IMPRESSUM
                         </Link>
                     </CardContent>{" "}
@@ -35,6 +33,8 @@ export default function CopyWrite() {
         </div>
     );
 }
+
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -53,5 +53,15 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#221f1f",
         boxShadow: "none",
         color: "#FFFFFF",
+    },
+    copywrite: {
+        underline: "none",
+        color: "#757ce8",
+        textDecoration: "none",
+        "&:hover": {
+            underline: "none",
+            color: "#FFFFFF",
+            textDecoration: "none",
+        },
     },
 }));

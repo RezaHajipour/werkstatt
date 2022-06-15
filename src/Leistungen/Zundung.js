@@ -53,7 +53,7 @@ function Zundung() {
 
 export default Zundung;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

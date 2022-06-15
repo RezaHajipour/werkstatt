@@ -66,7 +66,7 @@ function Klimaanlagen() {
 
 export default Klimaanlagen;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

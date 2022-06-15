@@ -79,7 +79,7 @@ function Inspektion() {
 
 export default Inspektion;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

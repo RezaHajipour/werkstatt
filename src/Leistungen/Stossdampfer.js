@@ -51,7 +51,7 @@ function Stossdampfer() {
 
 export default Stossdampfer;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

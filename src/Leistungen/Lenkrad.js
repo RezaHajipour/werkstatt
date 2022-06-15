@@ -50,7 +50,7 @@ function Lenkrad() {
 
 export default Lenkrad;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

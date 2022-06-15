@@ -4,10 +4,8 @@ import {
     Typography,
     Card,
     CardContent,
-    CardMedia,
     Grid,
 } from "@material-ui/core";
-import image from "../images/back-Auspuff.jpeg";
 
 function Impressum() {
     const classes = useStyles();
@@ -411,7 +409,7 @@ function Impressum() {
 
 export default Impressum;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

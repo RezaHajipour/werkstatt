@@ -45,7 +45,7 @@ function Karosserie() {
 
 export default Karosserie;
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {

@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import {
     makeStyles,
     Typography,
@@ -36,7 +35,7 @@ export default function SimpleContainer() {
     );
 }
 
-//----------------Material-ui----------------------
+//----------------Material-ui Styles----------------------
 
 const useStyles = makeStyles((theme) => ({
     root: {
