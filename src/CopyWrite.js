@@ -1,5 +1,6 @@
 import React from "react";
 import { makeStyles, Grid, Card, CardContent, Link } from "@material-ui/core";
+import { NavLink as RouterLink } from "react-router-dom";
 
 export default function CopyWrite() {
     const classes = useStyles();
@@ -24,7 +25,11 @@ export default function CopyWrite() {
                 <Card className={classes.card}>
                     <CardContent>
                         {" "}
-                        <Link href="/impressum" className={classes.copywrite}>
+                        <Link
+                            component={RouterLink}
+                            to="/impressum"
+                            className={classes.copywrite}
+                        >
                             IMPRESSUM
                         </Link>
                     </CardContent>{" "}
