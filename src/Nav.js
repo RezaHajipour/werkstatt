@@ -72,11 +72,11 @@ const Nav = () => {
                             </MenuItem>
                             <MenuItem>
                                 <RouterLink
-                                    to="/Auspuff"
+                                    to="/abgasanlage"
                                     activeClassName={classes.navLink}
                                     className={classes.mobileList}
                                 >
-                                    Auspuff
+                                    Abgasanlage
                                 </RouterLink>
                             </MenuItem>
                             <MenuItem>
