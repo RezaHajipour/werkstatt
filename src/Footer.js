@@ -96,7 +96,7 @@ export default function ButtonAppBar() {
                             color="textSecondary"
                             component="p"
                         >
-                            E-Mail: info@autowerkstatt-hammerbrook.de
+                            E-Mail: meisterbetriebwaisi@gmail.com
                         </Typography>
                         <Typography
                             variant="body2"
